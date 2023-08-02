@@ -21,10 +21,3 @@ Welcome to Voxels Wiki's documentation!
    Cryptovoxels_wiki_zh/Scripting/index.rst
 
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`

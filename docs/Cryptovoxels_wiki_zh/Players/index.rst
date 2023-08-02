@@ -16,9 +16,3 @@
    5. Key bindings 关键绑定.md
 
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
