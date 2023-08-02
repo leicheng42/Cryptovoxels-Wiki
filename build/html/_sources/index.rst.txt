@@ -9,7 +9,7 @@ Welcome to Voxels Wiki's documentation!
 .. toctree::
    :maxdepth: 2
 
-   hello.rst
+   hello
    testmk.md
 
 
