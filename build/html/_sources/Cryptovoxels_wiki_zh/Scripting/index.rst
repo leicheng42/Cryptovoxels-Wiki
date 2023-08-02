@@ -16,9 +16,3 @@
    5. Animation API 动画 API.md
 
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`

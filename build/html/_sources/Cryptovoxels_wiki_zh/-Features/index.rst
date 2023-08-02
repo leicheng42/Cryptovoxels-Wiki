@@ -39,9 +39,3 @@
    YouTube & Twitch 油管&Twitch直播.md
 
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`

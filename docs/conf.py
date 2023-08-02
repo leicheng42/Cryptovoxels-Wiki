@@ -10,9 +10,12 @@ import myst_parser
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Voxels Wiki'
-copyright = '2023, Lei Cheng'
+copyright = '2023, 雷电所 RaidenINST'
 author = 'Lei Cheng'
 release = '0.1'
+
+master_doc = "index"
+
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -34,3 +37,16 @@ language = 'zh_CN'
 
 html_theme = "sphinx_book_theme"
 html_static_path = ['_static']
+
+html_theme_options = {
+    "repository_url": "https://github.com/leicheng42/Cryptovoxels-Wiki",
+    "use_repository_button": True,
+    "use_edit_page_button": True,
+    "use_issues_button": True,
+    "use_source_button": True,
+    "home_page_in_toc": True,
+    
+}
+
+html_logo = "imgs/logo.jpg"
+html_title = "Voxels Wiki"
