@@ -1,0 +1,600 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="zh_CN" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>世界 &#8212; Voxels Wiki 0.1 文档</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script src="../_static/translations.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Cryptovoxels_wiki_zh/The world';</script>
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="搜索" href="../search.html" />
+    <link rel="next" title="Scripting" href="Scripting/index.html" />
+    <link rel="prev" title="虚拟现实" href="Virtual%20Reality.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="zh_CN"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    <p class="title logo__title">Voxels Wiki 0.1 文档</p>
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Home.html">Voxels Wiki</a></li>
+
+<li class="toctree-l1"><a class="reference internal" href="Voxel%20Library.html">Voxel 库</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Submit%20to%20Asset%20library.html">提交到资产库</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Virtual%20Reality.html">虚拟现实</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">世界</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="Scripting/index.html">Scripting</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul class="simple">
+</ul>
+</li>
+
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="下载此页面">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/Cryptovoxels_wiki_zh/The world.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="下载源文件"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="列印成 PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="全屏模式"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="搜索" aria-label="搜索" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>世界</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> 目录 </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#districts">Districts 区</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#islands">Islands 岛屿</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section id="id1">
+<h1>世界<a class="headerlink" href="#id1" title="永久链接至标题">#</a></h1>
+<p>世界由起源城、首都和主岛以及周围较小的岛屿组成。起源城市分为多个大小不等的区。</p>
+<p><img alt="World as of 29th sept 20" src="https://wiki.cryptovoxels.com/world_map_as_of_29_sep_20.png" />
+<em>- The world as of 29th of September 20, v4.19.2</em></p>
+<ul class="simple">
+<li><p>世界地图可以 <a class="reference external" href="https://www.cryptovoxels.com/map">在这</a>找到 <img alt="spacebuild.png" src="https://wiki.cryptovoxels.com/spaces/spacebuild.png" /><img alt="system_message.png" src="https://wiki.cryptovoxels.com/features/%5Bportal%5Dsystem_message.png" /> <img alt="parcel-info.png" src="https://wiki.cryptovoxels.com/building/parcel-info.png" /><img alt="buttonsexample.png" src="https://wiki.cryptovoxels.com/scripting/%5Bbasicgui%5Dbuttonsexample.png" />{.align-center} <img alt="name_register_new.png" src="https://wiki.cryptovoxels.com/username/name_register_new.png" /> <img alt="history.png" src="https://wiki.cryptovoxels.com/parcels/history.png" /> <img alt="my-parcels.png" src="https://wiki.cryptovoxels.com/parcels/my-parcels.png" /></p></li>
+</ul>
+<section id="districts">
+<h2>Districts 区<a class="headerlink" href="#districts" title="永久链接至标题">#</a></h2>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p>District name</p></th>
+<th class="head"><p>Info</p></th>
+<th class="head"><p>Link in-world</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Center</p></td>
+<td><p><a class="reference external" href="https://wiki.cryptovoxels.com/The-world/The-Center">Wiki</a></p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=">coords=</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Music District</p></td>
+<td><p><a class="reference external" href="https://wiki.cryptovoxels.com/The-world/Music-District">Wiki</a></p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=NE&#64;83E,44S">coords=NE&#64;83E,44S</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Le marais</p></td>
+<td><p><a class="reference external" href="https://wiki.cryptovoxels.com/The-world/Le-Marais">Wiki</a></p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=N&#64;118W,113N">coords=N&#64;118W,113N</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>North terrace</p></td>
+<td><p><a class="reference external" href="https://wiki.cryptovoxels.com/The-world/North-Terrace">Wiki</a></p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=SE&#64;20W,140N">coords=SE&#64;20W,140N</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Makers</p></td>
+<td><p><a class="reference external" href="https://wiki.cryptovoxels.com/The-world/Makers">Wiki</a></p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=S&#64;222E,4N">coords=S&#64;222E,4N</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Frankfurt</p></td>
+<td><p><a class="reference external" href="https://wiki.cryptovoxels.com/The-world/Frankfurt">Wiki</a></p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=NW&#64;241E,228N">coords=NW&#64;241E,228N</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Gangnam</p></td>
+<td><p><a class="reference external" href="https://wiki.cryptovoxels.com/The-world/Gangnam">Wiki</a></p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=N&#64;242E,435N">coords=N&#64;242E,435N</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Te Aro</p></td>
+<td><p><a class="reference external" href="https://wiki.cryptovoxels.com/The-world/Te-Aro">Wiki</a></p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=E&#64;414E,283N">coords=E&#64;414E,283N</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Modville</p></td>
+<td><p><a class="reference external" href="https://wiki.cryptovoxels.com/The-world/Modville">Wiki</a></p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=E&#64;447E,454N">coords=E&#64;447E,454N</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>North pole</p></td>
+<td><p><a class="reference external" href="https://wiki.cryptovoxels.com/The-world/North-Pole">Wiki</a></p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=E&#64;442N">coords=E&#64;442N</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Rome</p></td>
+<td><p><a class="reference external" href="https://wiki.cryptovoxels.com/The-world/Rome">Wiki</a></p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=N&#64;240W,430N">coords=N&#64;240W,430N</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Mars</p></td>
+<td><p><a class="reference external" href="https://wiki.cryptovoxels.com/The-world/Mars">Wiki</a></p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=N&#64;452W,453N">coords=N&#64;452W,453N</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Memes</p></td>
+<td><p><a class="reference external" href="https://wiki.cryptovoxels.com/The-world/Memes">Wiki</a></p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=E&#64;409W,250N">coords=E&#64;409W,250N</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Scripting</p></td>
+<td><p><a class="reference external" href="https://wiki.cryptovoxels.com/The-world/Scripting">Wiki</a></p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=W&#64;87W,310N">coords=W&#64;87W,310N</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Area 51</p></td>
+<td><p><a class="reference external" href="https://wiki.cryptovoxels.com/The-world/Area-51">Wiki</a></p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=NE&#64;222W,225N">coords=NE&#64;222W,225N</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Little tokyo</p></td>
+<td><p><a class="reference external" href="https://wiki.cryptovoxels.com/The-world/Little-Tokyo">Wiki</a></p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=S&#64;241W,123N">coords=S&#64;241W,123N</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Fantasy fields</p></td>
+<td><p><a class="reference external" href="https://wiki.cryptovoxels.com/The-world/Fantasy-Fields">Wiki</a></p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=E&#64;192W,14N">coords=E&#64;192W,14N</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>West end</p></td>
+<td><p><a class="reference external" href="https://wiki.cryptovoxels.com/The-world/West-End">Wiki</a></p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=NW&#64;447W">coords=NW&#64;447W</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Babylon</p></td>
+<td><p><a class="reference external" href="https://wiki.cryptovoxels.com/The-world/Babylon">Wiki</a></p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=S&#64;397W,130S">coords=S&#64;397W,130S</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Shenzhen</p></td>
+<td><p><a class="reference external" href="https://wiki.cryptovoxels.com/The-world/Shenzhen">Wiki</a></p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=NW&#64;443W,240S">coords=NW&#64;443W,240S</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Oasis</p></td>
+<td><p><a class="reference external" href="https://wiki.cryptovoxels.com/The-world/Oasis">Wiki</a></p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=E&#64;241W,275S">coords=E&#64;241W,275S</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Midtown</p></td>
+<td><p><a class="reference external" href="https://wiki.cryptovoxels.com/The-world/Midtown">Wiki</a></p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=N&#64;356W,454S">coords=N&#64;356W,454S</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Deep south</p></td>
+<td><p><a class="reference external" href="https://wiki.cryptovoxels.com/The-world/Deep-South">Wiki</a></p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=NE&#64;1E,445S">coords=NE&#64;1E,445S</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Doom</p></td>
+<td><p><a class="reference external" href="https://wiki.cryptovoxels.com/The-world/Doom">Wiki</a></p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=NE&#64;1E,224S">coords=NE&#64;1E,224S</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Hiro</p></td>
+<td><p><a class="reference external" href="https://wiki.cryptovoxels.com/The-world/Hiro">Wiki</a></p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=S&#64;156W,126S">coords=S&#64;156W,126S</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Kitties</p></td>
+<td><p><a class="reference external" href="https://wiki.cryptovoxels.com/The-world/Kitties">Wiki</a></p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=N&#64;206E,222S">coords=N&#64;206E,222S</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Axies</p></td>
+<td><p><a class="reference external" href="https://wiki.cryptovoxels.com/The-world/Axies">Wiki</a></p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=E&#64;345E,241S">coords=E&#64;345E,241S</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Punks</p></td>
+<td><p><a class="reference external" href="https://wiki.cryptovoxels.com/The-world/Punks">Wiki</a></p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=SW&#64;263E,337S">coords=SW&#64;263E,337S</a></p></td>
+</tr>
+<tr class="row-even"><td><p>The playa</p></td>
+<td><p><a class="reference external" href="https://wiki.cryptovoxels.com/The-world/The-Playa">Wiki</a></p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=N&#64;451E,424S">coords=N&#64;451E,424S</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Junkyard</p></td>
+<td><p><a class="reference external" href="https://wiki.cryptovoxels.com/The-world/Junkyard">Wiki</a></p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=N&#64;432E,109S">coords=N&#64;432E,109S</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Moon</p></td>
+<td><p><a class="reference external" href="https://wiki.cryptovoxels.com/The-world/Moon">Wiki</a></p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=N&#64;413E,104N">coords=N&#64;413E,104N</a></p></td>
+</tr>
+</tbody>
+</table>
+<p>For more: <a class="reference external" href="https://www.cryptovoxels.com/neighborhoods">cryptovoxels.com/neighborhoods</a></p>
+</section>
+<section id="islands">
+<h2>Islands 岛屿<a class="headerlink" href="#islands" title="永久链接至标题">#</a></h2>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Island name</p></th>
+<th class="head"><p>Location</p></th>
+<th class="head"><p>Link in-world</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Proxima</p></td>
+<td><p>North</p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=N&#64;234W,545N">Proxima</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Ceres</p></td>
+<td><p>West</p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=N&#64;617W,166S">Ceres</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Trinity</p></td>
+<td><p>South</p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=SE&#64;9E,551S">Trinity</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Electron</p></td>
+<td><p>South-east</p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=SE&#64;641E,394S">Electron</a></p></td>
+</tr>
+<tr class="row-even"><td><p>The Bronx</p></td>
+<td><p>East</p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=W&#64;811E,-1U,72N">The Bronx</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Euro</p></td>
+<td><p>North</p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=N&#64;86W,638N">Euro</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Tokyo</p></td>
+<td><p>North</p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=S&#64;54E,602N">Tokyo</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Proton</p></td>
+<td><p>South-east</p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=N&#64;620E,287S">Proton</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Neutron</p></td>
+<td><p>South-east</p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=N&#64;723E,279S">Neutron</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Berlin</p></td>
+<td><p>South-west</p></td>
+<td><p><a class="reference external" href="https://www.cryptovoxels.com/play?coords=W&#64;639W,624S">Berlin</a></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="Virtual%20Reality.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">上一页</p>
+        <p class="prev-next-title">虚拟现实</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="Scripting/index.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">下一页</p>
+        <p class="prev-next-title">Scripting</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div></div>
+  
+</div>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> 目录
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#districts">Districts 区</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#islands">Islands 岛屿</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+作者： Lei Cheng
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2023, Lei Cheng.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

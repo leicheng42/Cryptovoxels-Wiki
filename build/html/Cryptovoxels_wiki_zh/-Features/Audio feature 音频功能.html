@@ -1,0 +1,842 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="zh_CN" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>音频 &#8212; Voxels Wiki 0.1 文档</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+
+  
+  <link href="../../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" href="../../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script src="../../_static/translations.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Cryptovoxels_wiki_zh/-Features/Audio feature 音频功能';</script>
+    <link rel="index" title="索引" href="../../genindex.html" />
+    <link rel="search" title="搜索" href="../../search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="zh_CN"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="../../index.html">
+  
+  
+  
+  
+  
+    <p class="title logo__title">Voxels Wiki 0.1 文档</p>
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../1.%20%F0%9F%8F%A0%20Home%20%E5%AE%B6.html">Voxels Wiki 体素 Wiki</a></li>
+
+<li class="toctree-l1"><a class="reference internal" href="../2.%20%F0%9F%93%9A%20Voxel%20Library%20%E4%BD%93%E7%B4%A0%E5%BA%93.html">Animals</a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="toctree-l1"><a class="reference internal" href="../3.%20%E2%9E%95%20Submit%20to%20Asset%20library%20%E6%8F%90%E4%BA%A4%E5%88%B0%E8%B5%84%E4%BA%A7%E5%BA%93.html">Submit to the Asset library 提交到资产库</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../4.%20%F0%9F%95%B6%EF%B8%8F%20Virtual%20Reality%20%E8%99%9A%E6%8B%9F%E7%8E%B0%E5%AE%9E.html">Virtual Reality 虚拟现实</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../5.%F0%9F%97%BA%EF%B8%8F%20The%20world%20%E4%B8%96%E7%95%8C.html">Districts 区</a></li>
+
+<li class="toctree-l1 has-children"><a class="reference internal" href="../Parcels/index.html">玩家</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Parcels/1.%20%F0%9F%9B%92%20Buy%20a%20parcel%20%E8%B4%AD%E4%B9%B0%E5%9C%B0%E5%9D%97.html">What is a parcel? 什么是地块</a></li>
+
+
+
+<li class="toctree-l2"><a class="reference internal" href="../Parcels/2.%F0%9F%8F%97%EF%B8%8F%20How%20to%20build%20%E5%A6%82%E4%BD%95%E5%BB%BA%E9%80%A0.html">您可以在哪里建造？</a></li>
+
+
+
+
+
+
+<li class="toctree-l2"><a class="reference internal" href="../Parcels/3.%F0%9F%92%A1%20Light-mapping%20%E5%85%89%E7%85%A7%E6%98%A0%E5%B0%84.html">烘焙光照</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Parcels/4.%E2%9A%A1%20List%20of%20Features%20%E5%8A%9F%E8%83%BD%E5%88%97%E8%A1%A8.html">功能列表</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Parcels/5.%F0%9F%93%A6%20Make%20a%20vox-model%20%E5%88%B6%E4%BD%9C%20vox%E6%A8%A1%E5%9E%8B.html">1. 获取MagicaVoxel</a></li>
+
+
+
+
+
+<li class="toctree-l2"><a class="reference internal" href="../Parcels/6.%F0%9F%8F%9A%EF%B8%8F%20Spaces%20%E7%A9%BA%E9%97%B4.html">我可以在空间中做什么？</a></li>
+
+
+
+
+
+
+
+</ul>
+</li>
+
+<li class="toctree-l1 has-children"><a class="reference internal" href="../Players/index.html">玩家</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Players/1.%20Customization%20%E8%87%AA%E5%AE%9A%E4%B9%89.html">用户名</a></li>
+
+
+<li class="toctree-l2"><a class="reference internal" href="../Players/2.%20Make%20a%20wearable%20%E5%88%B6%E4%BD%9C%E7%A9%BF%E6%88%B4%E5%93%81.html">1. 要求</a></li>
+
+
+
+
+<li class="toctree-l2"><a class="reference internal" href="../Players/3.%20Buy%20a%20wearable%20%E8%B4%AD%E4%B9%B0%E7%A9%BF%E6%88%B4%E5%93%81.html">1. 浏览</a></li>
+
+
+<li class="toctree-l2"><a class="reference internal" href="../Players/4.%20Usernames%20%E7%94%A8%E6%88%B7%E5%90%8D.html">如何创建用户名</a></li>
+
+<li class="toctree-l2"><a class="reference internal" href="../Players/5.%20Key%20bindings%20%E5%85%B3%E9%94%AE%E7%BB%91%E5%AE%9A.html">按键控制</a></li>
+
+</ul>
+</li>
+
+<li class="toctree-l1 has-children"><a class="reference internal" href="../Scripting/index.html">脚本</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Scripting/1.%20Scripting%20documentation%20%E8%84%9A%E6%9C%AC%E7%BC%96%E5%86%99%E6%96%87%E6%A1%A3.html">脚本编写</a></li>
+
+
+
+
+
+<li class="toctree-l2"><a class="reference internal" href="../Scripting/2.%20Scripting%20examples%20%E8%84%9A%E6%9C%AC%E7%BC%96%E5%86%99%E7%A4%BA%E4%BE%8B.html">脚本示例</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Scripting/3.%20Feature%20scripting%20cheatsheet%20%E5%8A%9F%E8%83%BD%E8%84%9A%E6%9C%AC%E9%80%9F%E6%9F%A5%E8%A1%A8.html">目录</a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="toctree-l2"><a class="reference internal" href="../Scripting/4.%20The%20grid%20%E7%BD%91%E6%A0%BC.html">网格</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Scripting/5.%20Animation%20API%20%E5%8A%A8%E7%94%BB%20API.html">动画API</a></li>
+</ul>
+</li>
+
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="下载此页面">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../_sources/Cryptovoxels_wiki_zh/-Features/Audio feature 音频功能.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="下载源文件"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="列印成 PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="全屏模式"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="搜索" aria-label="搜索" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>音频</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> 目录 </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">音频</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">编辑器</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sprite">Sprite 小画面</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#streaming">Streaming 流式传输</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#autoplay">Autoplay  自动播放</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#loop">Loop 循环</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#spatial-rolloff-factor">Spatial rolloff factor 空间衰减因子</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#volume">Volume 音量</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#url">URL</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#scripting-properties">Scripting Properties</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#scripting-properties-tabset">Scripting Properties {.tabset}</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">url</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#get">get()</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#set">set()</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#default">default</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">sprite</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">get()</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">set()</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">default</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">streaming</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">get()</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">set()</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">default</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">autoplay</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">get()</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id14">set()</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id15">default</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id16">loop</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id17">get()</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id18">set()</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id19">default</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#rollofffactor">rolloffFactor</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id20">get()</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id21">set()</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id22">default</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id23">volume</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id24">get()</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id25">set()</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id26">default</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#type">type</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id27">get()</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#scripting-methods">Scripting Methods</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#scripting-methods-tabset">Scripting Methods {.tabset}</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#play">play()</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pause">pause()</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#stop">stop()</a></li>
+</ul>
+</li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section id="id1">
+<h1>音频<a class="headerlink" href="#id1" title="永久链接至标题">#</a></h1>
+<p>音频功能是一个 MP3 的小播放器。您可以链接到任何 mp3，我们将尝试对其进行流式传输。</p>
+<p><img alt="audio-feature.png" src="https://wiki.cryptovoxels.com/audio-feature.png" /></p>
+<section id="id2">
+<h2>编辑器<a class="headerlink" href="#id2" title="永久链接至标题">#</a></h2>
+<p><img alt="editor_v8.1.png" src="https://wiki.cryptovoxels.com/features/%5Baudio%5Deditor_v8.1.png" /></p>
+<section id="sprite">
+<h3>Sprite 小画面<a class="headerlink" href="#sprite" title="永久链接至标题">#</a></h3>
+<p>显示一个较小的音频元素</p>
+</section>
+<section id="streaming">
+<h3>Streaming 流式传输<a class="headerlink" href="#streaming" title="永久链接至标题">#</a></h3>
+<p>直接流式传输音频，无需通过我们的服务器进行代理。应该可以加快音频播放速度，但如果您在托管服务器上有奇怪的规则，则可能不行。</p>
+</section>
+<section id="autoplay">
+<h3>Autoplay  自动播放<a class="headerlink" href="#autoplay" title="永久链接至标题">#</a></h3>
+<p>一旦有人进入您的包裹，立即开始播放这段音频。（拥有权利的同时也被赋予了重大的责任）。</p>
+</section>
+<section id="loop">
+<h3>Loop 循环<a class="headerlink" href="#loop" title="永久链接至标题">#</a></h3>
+<p>始终循环播放。</p>
+</section>
+<section id="spatial-rolloff-factor">
+<h3>Spatial rolloff factor 空间衰减因子<a class="headerlink" href="#spatial-rolloff-factor" title="永久链接至标题">#</a></h3>
+<p>当玩家离开音频播放器时声音消失的速度。
+值在 0 到 5 之间。</p>
+</section>
+<section id="volume">
+<h3>Volume 音量<a class="headerlink" href="#volume" title="永久链接至标题">#</a></h3>
+<p>音频的声音的大小
+值在0到1之间。</p>
+</section>
+<section id="url">
+<h3>URL<a class="headerlink" href="#url" title="永久链接至标题">#</a></h3>
+<p>Links must be <code class="docutils literal notranslate"><span class="pre">https://</span></code> since we force https:// for everything.
+链接必须是 <code class="docutils literal notranslate"><span class="pre">https://</span></code> 开头，因为我们强制所有东西都是  <code class="docutils literal notranslate"><span class="pre">https://</span></code> 。</p>
+</section>
+</section>
+</section>
+<section id="scripting-properties">
+<h1>Scripting Properties<a class="headerlink" href="#scripting-properties" title="永久链接至标题">#</a></h1>
+</section>
+<section id="scripting-properties-tabset">
+<h1>Scripting Properties {.tabset}<a class="headerlink" href="#scripting-properties-tabset" title="永久链接至标题">#</a></h1>
+<section id="id3">
+<h2>url<a class="headerlink" href="#id3" title="永久链接至标题">#</a></h2>
+<p><code class="docutils literal notranslate"><span class="pre">String.</span></code>; Links must be <code class="docutils literal notranslate"><span class="pre">https://</span></code> and must finish with an audio extension such as <code class="docutils literal notranslate"><span class="pre">.mp3</span></code></p>
+<section id="get">
+<h3>get()<a class="headerlink" href="#get" title="永久链接至标题">#</a></h3>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="nx">feature</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">&#39;url&#39;</span><span class="p">)</span>
+<span class="c1">// returns: &quot;https://...&quot;</span>
+</pre></div>
+</div>
+</section>
+<section id="set">
+<h3>set()<a class="headerlink" href="#set" title="永久链接至标题">#</a></h3>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="nx">feature</span><span class="p">.</span><span class="nx">set</span><span class="p">({</span><span class="s1">&#39;url&#39;</span><span class="o">:</span><span class="s2">&quot;https://www.myurl.com/file.mp3&quot;</span><span class="p">})</span>
+</pre></div>
+</div>
+</section>
+<section id="default">
+<h3>default<a class="headerlink" href="#default" title="永久链接至标题">#</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">&quot;&quot;</span></code></p>
+</section>
+</section>
+<section id="id4">
+<h2>sprite<a class="headerlink" href="#id4" title="永久链接至标题">#</a></h2>
+<p><code class="docutils literal notranslate"><span class="pre">Boolean.</span></code></p>
+<section id="id5">
+<h3>get()<a class="headerlink" href="#id5" title="永久链接至标题">#</a></h3>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="nx">feature</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">&#39;sprite&#39;</span><span class="p">)</span>
+<span class="c1">// returns: false</span>
+</pre></div>
+</div>
+</section>
+<section id="id6">
+<h3>set()<a class="headerlink" href="#id6" title="永久链接至标题">#</a></h3>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="nx">feature</span><span class="p">.</span><span class="nx">set</span><span class="p">({</span><span class="s1">&#39;sprite&#39;</span><span class="o">:</span><span class="w"> </span><span class="kc">true</span><span class="p">})</span>
+</pre></div>
+</div>
+</section>
+<section id="id7">
+<h3>default<a class="headerlink" href="#id7" title="永久链接至标题">#</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">false</span></code></p>
+</section>
+</section>
+<section id="id8">
+<h2>streaming<a class="headerlink" href="#id8" title="永久链接至标题">#</a></h2>
+<p><code class="docutils literal notranslate"><span class="pre">Boolean.</span></code></p>
+<section id="id9">
+<h3>get()<a class="headerlink" href="#id9" title="永久链接至标题">#</a></h3>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="nx">feature</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">&#39;streaming&#39;</span><span class="p">)</span>
+<span class="c1">// returns: false</span>
+</pre></div>
+</div>
+</section>
+<section id="id10">
+<h3>set()<a class="headerlink" href="#id10" title="永久链接至标题">#</a></h3>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="nx">feature</span><span class="p">.</span><span class="nx">set</span><span class="p">({</span><span class="s1">&#39;streaming&#39;</span><span class="o">:</span><span class="w"> </span><span class="kc">true</span><span class="p">})</span>
+</pre></div>
+</div>
+</section>
+<section id="id11">
+<h3>default<a class="headerlink" href="#id11" title="永久链接至标题">#</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">false</span></code></p>
+</section>
+</section>
+<section id="id12">
+<h2>autoplay<a class="headerlink" href="#id12" title="永久链接至标题">#</a></h2>
+<p><code class="docutils literal notranslate"><span class="pre">Boolean.</span></code></p>
+<section id="id13">
+<h3>get()<a class="headerlink" href="#id13" title="永久链接至标题">#</a></h3>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="nx">feature</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">&#39;autoplay&#39;</span><span class="p">)</span>
+<span class="c1">// returns: false</span>
+</pre></div>
+</div>
+</section>
+<section id="id14">
+<h3>set()<a class="headerlink" href="#id14" title="永久链接至标题">#</a></h3>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="nx">feature</span><span class="p">.</span><span class="nx">set</span><span class="p">({</span><span class="s1">&#39;autoplay&#39;</span><span class="o">:</span><span class="w"> </span><span class="kc">true</span><span class="p">})</span>
+</pre></div>
+</div>
+</section>
+<section id="id15">
+<h3>default<a class="headerlink" href="#id15" title="永久链接至标题">#</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">false</span></code></p>
+</section>
+</section>
+<section id="id16">
+<h2>loop<a class="headerlink" href="#id16" title="永久链接至标题">#</a></h2>
+<p><code class="docutils literal notranslate"><span class="pre">Boolean.</span></code></p>
+<section id="id17">
+<h3>get()<a class="headerlink" href="#id17" title="永久链接至标题">#</a></h3>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="nx">feature</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">&#39;loop&#39;</span><span class="p">)</span>
+<span class="c1">// returns: false</span>
+</pre></div>
+</div>
+</section>
+<section id="id18">
+<h3>set()<a class="headerlink" href="#id18" title="永久链接至标题">#</a></h3>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="nx">feature</span><span class="p">.</span><span class="nx">set</span><span class="p">({</span><span class="s1">&#39;loop&#39;</span><span class="o">:</span><span class="w"> </span><span class="kc">true</span><span class="p">})</span>
+</pre></div>
+</div>
+</section>
+<section id="id19">
+<h3>default<a class="headerlink" href="#id19" title="永久链接至标题">#</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">false</span></code></p>
+</section>
+</section>
+<section id="rollofffactor">
+<h2>rolloffFactor<a class="headerlink" href="#rollofffactor" title="永久链接至标题">#</a></h2>
+<p><code class="docutils literal notranslate"><span class="pre">double</span></code>; Value ranging from 0 to 5</p>
+<section id="id20">
+<h3>get()<a class="headerlink" href="#id20" title="永久链接至标题">#</a></h3>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="nx">feature</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">&#39;rolloffFactor&#39;</span><span class="p">)</span>
+<span class="c1">// returns: 1.6</span>
+</pre></div>
+</div>
+</section>
+<section id="id21">
+<h3>set()<a class="headerlink" href="#id21" title="永久链接至标题">#</a></h3>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="nx">feature</span><span class="p">.</span><span class="nx">set</span><span class="p">({</span><span class="s1">&#39;rolloffFactor&#39;</span><span class="o">:</span><span class="w"> </span><span class="mf">1.6</span><span class="p">})</span>
+</pre></div>
+</div>
+</section>
+<section id="id22">
+<h3>default<a class="headerlink" href="#id22" title="永久链接至标题">#</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">1.6</span></code></p>
+</section>
+</section>
+<section id="id23">
+<h2>volume<a class="headerlink" href="#id23" title="永久链接至标题">#</a></h2>
+<p><code class="docutils literal notranslate"><span class="pre">double</span></code>; Value ranging from 0 to 1</p>
+<section id="id24">
+<h3>get()<a class="headerlink" href="#id24" title="永久链接至标题">#</a></h3>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="nx">feature</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">&#39;volume&#39;</span><span class="p">)</span>
+<span class="c1">// returns: 0.5</span>
+</pre></div>
+</div>
+</section>
+<section id="id25">
+<h3>set()<a class="headerlink" href="#id25" title="永久链接至标题">#</a></h3>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="nx">feature</span><span class="p">.</span><span class="nx">set</span><span class="p">({</span><span class="s1">&#39;volume&#39;</span><span class="o">:</span><span class="w"> </span><span class="mf">0.5</span><span class="p">})</span>
+</pre></div>
+</div>
+</section>
+<section id="id26">
+<h3>default<a class="headerlink" href="#id26" title="永久链接至标题">#</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">0.5</span></code></p>
+</section>
+</section>
+<section id="type">
+<h2>type<a class="headerlink" href="#type" title="永久链接至标题">#</a></h2>
+<p><code class="docutils literal notranslate"><span class="pre">String</span></code>;</p>
+<section id="id27">
+<h3>get()<a class="headerlink" href="#id27" title="永久链接至标题">#</a></h3>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="nx">feature</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">&#39;type&#39;</span><span class="p">)</span>
+<span class="cm">/* or */</span>
+<span class="nx">feature</span><span class="p">.</span><span class="nx">type</span>
+
+<span class="c1">// returns: &#39;audio&#39;</span>
+</pre></div>
+</div>
+</section>
+</section>
+</section>
+<section id="scripting-methods">
+<h1>Scripting Methods<a class="headerlink" href="#scripting-methods" title="永久链接至标题">#</a></h1>
+</section>
+<section id="scripting-methods-tabset">
+<h1>Scripting Methods {.tabset}<a class="headerlink" href="#scripting-methods-tabset" title="永久链接至标题">#</a></h1>
+<section id="play">
+<h2>play()<a class="headerlink" href="#play" title="永久链接至标题">#</a></h2>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="nx">feature</span><span class="p">.</span><span class="nx">play</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>plays the audio</p>
+</section>
+<section id="pause">
+<h2>pause()<a class="headerlink" href="#pause" title="永久链接至标题">#</a></h2>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="nx">feature</span><span class="p">.</span><span class="nx">pause</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>pauses the audio</p>
+</section>
+<section id="stop">
+<h2>stop()<a class="headerlink" href="#stop" title="永久链接至标题">#</a></h2>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="nx">feature</span><span class="p">.</span><span class="nx">stop</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>stops the audio</p>
+</section>
+</section>
+
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+</div></div>
+  
+</div>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> 目录
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">音频</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">编辑器</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sprite">Sprite 小画面</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#streaming">Streaming 流式传输</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#autoplay">Autoplay  自动播放</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#loop">Loop 循环</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#spatial-rolloff-factor">Spatial rolloff factor 空间衰减因子</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#volume">Volume 音量</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#url">URL</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#scripting-properties">Scripting Properties</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#scripting-properties-tabset">Scripting Properties {.tabset}</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">url</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#get">get()</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#set">set()</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#default">default</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">sprite</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">get()</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">set()</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">default</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">streaming</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">get()</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">set()</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">default</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">autoplay</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">get()</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id14">set()</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id15">default</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id16">loop</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id17">get()</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id18">set()</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id19">default</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#rollofffactor">rolloffFactor</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id20">get()</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id21">set()</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id22">default</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id23">volume</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id24">get()</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id25">set()</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id26">default</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#type">type</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id27">get()</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#scripting-methods">Scripting Methods</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#scripting-methods-tabset">Scripting Methods {.tabset}</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#play">play()</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pause">pause()</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#stop">stop()</a></li>
+</ul>
+</li>
+</ul>
+
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+作者： Lei Cheng
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2023, Lei Cheng.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
