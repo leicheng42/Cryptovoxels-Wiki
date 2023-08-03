@@ -1,3 +1,35 @@
+:::bg-primary
+This is a container with a custom CSS class.
+
+- It can contain multiple blocks
+:::
+
+
+:::{card} Card Title
+Header
+^^^
+Card content
++++
+Footer
+:::
+
+
+::::{tab-set}
+
+:::{tab-item} Label1
+Content 1
+:::
+
+:::{tab-item} Label2
+Content 2
+:::
+
+:::{tab-item} Label2
+Content 2
+:::
+
+::::
+
 # 音频
 
 音频功能是一个 MP3 的小播放器。您可以链接到任何 mp3，我们将尝试对其进行流式传输。
@@ -189,6 +221,63 @@ feature.type
 
 // returns: 'audio'
 ```
+
+# Scripting Methods
+
+::::{tab-set}
+
+:::{tab-item} play()
+```js
+feature.play()
+```
+plays the audio
+:::
+
+:::{tab-item} pause()
+```js
+feature.pause()
+```
+pauses the audio
+:::
+
+:::{tab-item} stop()
+```js
+feature.stop()
+```
+stops the audio
+:::
+
+::::
+
+
+::::{tab-set}
+
+:::{tab-item} Label1
+Content 1
+:::
+
+:::{tab-item} Label2
+Content 2
+:::
+
+::::
+
+
+::::::{myst-example}
+
+::::{tab-set}
+
+:::{tab-item} Label1
+Content 1
+:::
+
+:::{tab-item} Label2
+Content 2
+:::
+
+::::
+
+::::::
 
 # Scripting Methods
 # Scripting Methods {.tabset}

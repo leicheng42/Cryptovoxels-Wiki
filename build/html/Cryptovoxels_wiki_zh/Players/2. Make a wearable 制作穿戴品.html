@@ -3,11 +3,11 @@
 <!DOCTYPE html>
 
 
-<html lang="zh_CN" >
+<html lang="zh-CN" >
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>制作穿戴品 &#8212; Voxels Wiki</title>
   
@@ -37,9 +37,8 @@
 <link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
 
     <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
-    <script src="../../_static/jquery.js"></script>
-    <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
     <script src="../../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
     <script src="../../_static/translations.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'Cryptovoxels_wiki_zh/Players/2. Make a wearable 制作穿戴品';</script>
@@ -48,7 +47,7 @@
     <link rel="next" title="购买穿戴品" href="3.%20Buy%20a%20wearable%20%E8%B4%AD%E4%B9%B0%E7%A9%BF%E6%88%B4%E5%93%81.html" />
     <link rel="prev" title="自定义" href="1.%20Customization%20%E8%87%AA%E5%AE%9A%E4%B9%89.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="docsearch:language" content="zh_CN"/>
+  <meta name="docsearch:language" content="zh-CN"/>
   </head>
   
   
@@ -147,32 +146,12 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Parcels</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../Parcels/1.%20%F0%9F%9B%92%20Buy%20a%20parcel%20%E8%B4%AD%E4%B9%B0%E5%9C%B0%E5%9D%97.html">什么是地块（Parcel）?</a></li>
-
-
-
+<li class="toctree-l1"><a class="reference internal" href="../Parcels/1.%20%F0%9F%9B%92%20Buy%20a%20parcel%20%E8%B4%AD%E4%B9%B0%E5%9C%B0%E5%9D%97.html">购买地块</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Parcels/2.%F0%9F%8F%97%EF%B8%8F%20How%20to%20build%20%E5%A6%82%E4%BD%95%E5%BB%BA%E9%80%A0.html">如何建造</a></li>
-
-
-
-
-
-
-
 <li class="toctree-l1"><a class="reference internal" href="../Parcels/3.%F0%9F%92%A1%20Light-mapping%20%E5%85%89%E7%85%A7%E6%98%A0%E5%B0%84.html">烘焙光照</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Parcels/4.%E2%9A%A1%20List%20of%20Features%20%E5%8A%9F%E8%83%BD%E5%88%97%E8%A1%A8.html">功能列表</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Parcels/5.%F0%9F%93%A6%20Make%20a%20vox-model%20%E5%88%B6%E4%BD%9C%20vox%E6%A8%A1%E5%9E%8B.html">制作 vox 模型</a></li>
-
-
-
-
-
-
 <li class="toctree-l1"><a class="reference internal" href="../Parcels/6.%F0%9F%8F%9A%EF%B8%8F%20Spaces%20%E7%A9%BA%E9%97%B4.html">空间</a></li>
-
-
-
-
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Players</span></p>
 <ul class="current nav bd-sidenav">
@@ -181,21 +160,14 @@
 
 
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">制作穿戴品</a></li>
-
-
-
-
-
 <li class="toctree-l1"><a class="reference internal" href="3.%20Buy%20a%20wearable%20%E8%B4%AD%E4%B9%B0%E7%A9%BF%E6%88%B4%E5%93%81.html">购买穿戴品</a></li>
-
-
-
 <li class="toctree-l1"><a class="reference internal" href="4.%20Usernames%20%E7%94%A8%E6%88%B7%E5%90%8D.html">用户名</a></li>
 <li class="toctree-l1"><a class="reference internal" href="5.%20Key%20bindings%20%E5%85%B3%E9%94%AE%E7%BB%91%E5%AE%9A.html">绑定快捷键</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Features</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../-Features/Audio%20feature%20%E9%9F%B3%E9%A2%91%E5%8A%9F%E8%83%BD.html">音频</a></li>
+
 
 
 
@@ -280,28 +252,8 @@
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Scripting</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../Scripting/1.%20Scripting%20documentation%20%E8%84%9A%E6%9C%AC%E7%BC%96%E5%86%99%E6%96%87%E6%A1%A3.html">脚本编写</a></li>
-
-
-
-
-
 <li class="toctree-l1"><a class="reference internal" href="../Scripting/2.%20Scripting%20examples%20%E8%84%9A%E6%9C%AC%E7%BC%96%E5%86%99%E7%A4%BA%E4%BE%8B.html">脚本示例</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Scripting/3.%20Feature%20scripting%20cheatsheet%20%E5%8A%9F%E8%83%BD%E8%84%9A%E6%9C%AC%E9%80%9F%E6%9F%A5%E8%A1%A8.html">脚本速查表</a></li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <li class="toctree-l1"><a class="reference internal" href="../Scripting/4.%20The%20grid%20%E7%BD%91%E6%A0%BC.html">网格</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Scripting/5.%20Animation%20API%20%E5%8A%A8%E7%94%BB%20API.html">动画API</a></li>
 </ul>
@@ -531,43 +483,41 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">制作穿戴品</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">1. 要求</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#vox">2. 创建一个vox模型</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#magicavoxel">使用MagicaVoxel</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">保存您的vox文件</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">上传您的穿戴品</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">提示、脚本和教程</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">导入</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">着色器和颜色</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">在铸币之前试穿</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">让其他人试穿</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">故障面部效果</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">扁平穿戴品</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">教程</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">1. 要求</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#vox">2. 创建一个vox模型</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#magicavoxel">使用MagicaVoxel</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">保存您的vox文件</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">上传您的穿戴品</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">提示、脚本和教程</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">导入</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">着色器和颜色</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">在铸币之前试穿</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">让其他人试穿</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">故障面部效果</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">扁平穿戴品</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">教程</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">3. 集合</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id14">创建一个集合</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id15">铸造一件穿戴品</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#polygon-matic-rpc">Polygon/Matic RPC</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id16">上传到您的集合</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id17">提交到公共集合</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">3. 集合</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id14">创建一个集合</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id15">铸造一件穿戴品</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#polygon-matic-rpc">Polygon/Matic RPC</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id16">上传到您的集合</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id17">提交到公共集合</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id18">交易穿戴品</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#cryptovoxels">在Cryptovoxels上交易</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#opensea">在OpenSea上交易</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id18">交易穿戴品</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#cryptovoxels">在Cryptovoxels上交易</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#opensea">在OpenSea上交易</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id19">4. 审核</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id20">5. 重复</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id19">4. 审核</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id20">5. 重复</a></li>
 </ul>
-
             </nav>
         </div>
     </div>
@@ -579,10 +529,9 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <section id="create-a-wearable">
-<span id="id1"></span><h1>制作穿戴品<a class="headerlink" href="#create-a-wearable" title="永久链接至标题">#</a></h1>
-</section>
+<span id="id1"></span><h1>制作穿戴品<a class="headerlink" href="#create-a-wearable" title="此标题的永久链接">#</a></h1>
 <section id="id2">
-<h1>1. 要求<a class="headerlink" href="#id2" title="永久链接至标题">#</a></h1>
+<h2>1. 要求<a class="headerlink" href="#id2" title="此标题的永久链接">#</a></h2>
 <p>穿戴品位于<a class="reference external" href="https://wiki.cryptovoxels.com/en/Player_customization/Create_a_wearable#h-3-collections">集合</a>中，为了创建一个集合，您需要拥有一个<a class="reference external" href="https://wiki.cryptovoxels.com/en/Parcels/Buy-a-parcel">地块</a>。
 如果您没有拥有地块，您可以选择<a class="reference external" href="https://wiki.cryptovoxels.com/en/Player_customization/Create_a_wearable#submit-to-a-public-collection">提交到公共集合</a>，或者请拥有地块的人为您创建一个集合。</p>
 <blockquote>
@@ -593,9 +542,9 @@ document.write(`
 最后，穿戴品必须符合社区准则 - 不能包含冒犯性、种族主义、歧视性、支持暴力或不适宜内容。</p>
 </section>
 <section id="vox">
-<h1>2. 创建一个vox模型<a class="headerlink" href="#vox" title="永久链接至标题">#</a></h1>
+<h2>2. 创建一个vox模型<a class="headerlink" href="#vox" title="此标题的永久链接">#</a></h2>
 <section id="magicavoxel">
-<h2>使用MagicaVoxel<a class="headerlink" href="#magicavoxel" title="永久链接至标题">#</a></h2>
+<h3>使用MagicaVoxel<a class="headerlink" href="#magicavoxel" title="此标题的永久链接">#</a></h3>
 <p>要创建vox模型，您需要 <a class="reference external" href="https://ephtracy.github.io/">MagicaVoxel</a> 软件。下载最新版本，安装它，然后打开。</p>
 <p>第一步是将大小设置为32x32x32 - 您可以通过在右上角选择40s，然后输入32并按回车键来实现这一点。</p>
 <p><img alt="magica_size.png" src="https://wiki.cryptovoxels.com/createawearable/magica_size.png" /></p>
@@ -606,13 +555,13 @@ document.write(`
 </div></blockquote>
 </section>
 <section id="id3">
-<h2>保存您的vox文件<a class="headerlink" href="#id3" title="永久链接至标题">#</a></h2>
+<h3>保存您的vox文件<a class="headerlink" href="#id3" title="此标题的永久链接">#</a></h3>
 <p>完成您的穿戴品制作后，请保存它。</p>
 <p><img alt="magica_save.png" src="https://wiki.cryptovoxels.com/createawearable/magica_save.png" /></p>
 <p>确保画布大小为32x32x32！</p>
 </section>
 <section id="id4">
-<h2>上传您的穿戴品<a class="headerlink" href="#id4" title="永久链接至标题">#</a></h2>
+<h3>上传您的穿戴品<a class="headerlink" href="#id4" title="此标题的永久链接">#</a></h3>
 <p>您的物品已经创建好了，现在是时候将其上传进行审核了！</p>
 <p><strong>您有两个选择：</strong></p>
 <ol class="arabic simple">
@@ -623,31 +572,31 @@ document.write(`
 然而，集合所有者还有资格获得OpenSea交易的版税费用。</p>
 </section>
 <section id="id5">
-<h2>提示、脚本和教程<a class="headerlink" href="#id5" title="永久链接至标题">#</a></h2>
+<h3>提示、脚本和教程<a class="headerlink" href="#id5" title="此标题的永久链接">#</a></h3>
 <p>MagicaVoxel允许使用脚本（着色器），可以导入某些文件类型以简化创建过程，并且可以加载颜色调色板，并轻松创建渐变效果。</p>
 <section id="id6">
-<h3>导入<a class="headerlink" href="#id6" title="永久链接至标题">#</a></h3>
+<h4>导入<a class="headerlink" href="#id6" title="此标题的永久链接">#</a></h4>
 <p>要导入PNG或JPG，请将其拖放到MagicaVoxel中（先清除画布）。例如，您可以导入像素艺术面孔，然后按照您的喜好拉伸它。如果您选择这种方式，您可能需要预先将其缩小到32x32（如果在Photoshop中进行，请确保使用Nearest Neighbor进行重新采样）。</p>
 <p><img alt="magica_import_png.gif" src="https://wiki.cryptovoxels.com/createawearable/magica_import_png.gif" /></p>
 <p>要导入OBJ，请将其拖放到MagicaVoxel中。导入文件时，MagicaVoxel可能会包含一个隐藏的图层，您必须删除它 - 否则无法将vox导入到Cryptovoxels中。请查看下面的GIF以了解如何删除。</p>
 <p><img alt="magica_import_obj.gif" src="https://wiki.cryptovoxels.com/createawearable/magica_import_obj.gif" /></p>
 </section>
 <section id="id7">
-<h3>着色器和颜色<a class="headerlink" href="#id7" title="永久链接至标题">#</a></h3>
+<h4>着色器和颜色<a class="headerlink" href="#id7" title="此标题的永久链接">#</a></h4>
 <p>着色器放在着色器文件夹中，调色板放在调色板文件夹中。在加载了一些着色器之后，可以从右侧面板或底部的控制台访问它们。<a class="reference external" href="https://mode-vis.gumroad.com/?sort=newest">这个网站</a>提供了许多不同的着色器供您使用。</p>
 <p><img alt="magica_shaders.png" src="https://wiki.cryptovoxels.com/createawearable/magica_shaders.png" /></p>
 <p>为了创建渐变效果，按住CTRL+ALT，然后单击/按住起始颜色，并将其拖到结束颜色。</p>
 <p><img alt="magica_gradient.gif" src="https://wiki.cryptovoxels.com/createawearable/magica_gradient.gif" /></p>
 </section>
 <section id="id8">
-<h3>在铸币之前试穿<a class="headerlink" href="#id8" title="永久链接至标题">#</a></h3>
+<h4>在铸币之前试穿<a class="headerlink" href="#id8" title="此标题的永久链接">#</a></h4>
 <p>虽然没有官方功能可以在铸币之前先试穿穿戴品，但您可以将vox放在您的地块（或沙盒地块）上，然后走进去进行模拟。</p>
 <p>在放置vox并调整位置/缩放/旋转后，按C键进入第三人称并走进去。这不是完美的，但是可以使用。</p>
 <p><img alt="trying_it.gif" src="https://wiki.cryptovoxels.com/createawearable/trying_it.gif" /></p>
 <p>查看<a class="reference external" href="https://wiki.cryptovoxels.com/Player_customization/Costume_tab">定制</a>部分，了解玩家如何在自己身上佩戴穿戴品的所有方法。</p>
 </section>
 <section id="id9">
-<h3>让其他人试穿<a class="headerlink" href="#id9" title="永久链接至标题">#</a></h3>
+<h4>让其他人试穿<a class="headerlink" href="#id9" title="此标题的永久链接">#</a></h4>
 <p>如果您的穿戴品已经铸币并且在您的钱包中，您可以允许其他人在购买前</p>
 <p>试穿。</p>
 <ol class="arabic simple">
@@ -662,20 +611,20 @@ document.write(`
 <p><img alt="trying_it2.gif" src="https://wiki.cryptovoxels.com/createawearable/trying_it2.gif" /></p>
 </section>
 <section id="id10">
-<h3>故障面部效果<a class="headerlink" href="#id10" title="永久链接至标题">#</a></h3>
+<h4>故障面部效果<a class="headerlink" href="#id10" title="此标题的永久链接">#</a></h4>
 <p><a class="reference external" href="https://www.cryptovoxels.com/avatar/0xf1182c5e5bcd7c90b04eb14eb4f971c52f510d47">Stella</a> 发现了一种在Cryptovoxels中制作令人惊叹的故障穿戴品的方法。 😸
 <img alt="glitchedface.gif" src="https://wiki.cryptovoxels.com/createawearable/glitchedface.gif" />
 要复制这个疯狂的效果，请查看<a class="reference external" href="https://www.youtube.com/watch?v=Frn3JCyWHY4">此处的教程</a>！</p>
 </section>
 <section id="id11">
-<h3>扁平穿戴品<a class="headerlink" href="#id11" title="永久链接至标题">#</a></h3>
+<h4>扁平穿戴品<a class="headerlink" href="#id11" title="此标题的永久链接">#</a></h4>
 <p>如果您计划制作扁平或薄的穿戴品，您必须在MagicaVoxel中以某种特定方式创建它，否则缩放可能会出现问题。下面您可以看到三个不同的VOX文件，看起来相似，但在缩放时，其中一个明显不一样（并随之移动）。</p>
 <p><img alt="flat3.gif" src="https://wiki.cryptovoxels.com/createawearable/flat3.gif" /></p>
 <p>为了确保您的扁平穿戴品在缩放时不会出现问题，请在“地面”上创建它，或者将其放在中心点，如下所示（即y:15）。</p>
 <p><img alt="flat.png" src="https://wiki.cryptovoxels.com/createawearable/flat.png" /></p>
 </section>
 <section id="id12">
-<h3>教程<a class="headerlink" href="#id12" title="永久链接至标题">#</a></h3>
+<h4>教程<a class="headerlink" href="#id12" title="此标题的永久链接">#</a></h4>
 <p>如果您对MagicaVoxel完全不熟悉，或者想深入了解更多信息，请查看这些资源：</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.raywenderlich.com/375-magicavoxel-3d-art-tutorial">初学者写作指南</a></p></li>
@@ -687,7 +636,7 @@ document.write(`
 </section>
 </section>
 <section id="id13">
-<h1>3. 集合<a class="headerlink" href="#id13" title="永久链接至标题">#</a></h1>
+<h2>3. 集合<a class="headerlink" href="#id13" title="此标题的永久链接">#</a></h2>
 <p>集合是一组3D NFT，可在虚拟世界中生成或穿戴。</p>
 <p>在Cryptovoxels中创建并列入白名单的集合意味着您可以基于区块链创建自己的品牌收藏品（在这种情况下为穿戴品）。</p>
 <p>玩家可以佩戴或放置该集合的收藏品在虚拟世界中。他们还可以在Cryptovoxels网站和OpenSea上找到您的集合和收藏品。您还可以通过Cryptovoxels和OpenSea管理您的集合的各个方面。</p>
@@ -697,7 +646,7 @@ document.write(`
 {.is-warning}</p>
 </div></blockquote>
 <section id="id14">
-<h2>创建一个集合<a class="headerlink" href="#id14" title="永久链接至标题">#</a></h2>
+<h3>创建一个集合<a class="headerlink" href="#id14" title="此标题的永久链接">#</a></h3>
 <ol class="arabic simple">
 <li><p>使用您的钱包登录Cryptovoxels，点击顶部菜单栏上的 <a class="reference external" href="https://www.cryptovoxels.com/marketplace">Marketplace</a></p></li>
 <li><p>点击 <a class="reference external" href="https://www.cryptovoxels.com/collections">Collections</a></p></li>
@@ -750,7 +699,7 @@ document.write(`
 </div></blockquote>
 </section>
 <section id="id15">
-<h2>铸造一件穿戴品<a class="headerlink" href="#id15" title="永久链接至标题">#</a></h2>
+<h3>铸造一件穿戴品<a class="headerlink" href="#id15" title="此标题的永久链接">#</a></h3>
 <p>现在您已经准备好铸造了！转到您的集合页面，并确保您已登录（它应该类似于https://www.cryptovoxels.com/collections/1）。
 如果您要提交到公共集合，请跳过下一节。</p>
 <blockquote>
@@ -758,12 +707,12 @@ document.write(`
 {.is-warning}</p>
 </div></blockquote>
 <section id="polygon-matic-rpc">
-<h3>Polygon/Matic RPC<a class="headerlink" href="#polygon-matic-rpc" title="永久链接至标题">#</a></h3>
+<h4>Polygon/Matic RPC<a class="headerlink" href="#polygon-matic-rpc" title="此标题的永久链接">#</a></h4>
 <p>为确保稳定性，建议将您的钱包的Polygon/Matic RPC切换到https://rpc-mainnet.maticvigil.com/。</p>
 <p><img alt="rpc.png" src="https://wiki.cryptovoxels.com/createawearable/rpc.png" /></p>
 </section>
 <section id="id16">
-<h3>上传到您的集合<a class="headerlink" href="#id16" title="永久链接至标题">#</a></h3>
+<h4>上传到您的集合<a class="headerlink" href="#id16" title="此标题的永久链接">#</a></h4>
 <p><img alt="mint.png" src="https://wiki.cryptovoxels.com/createawearable/mint.png" /></p>
 <ol class="arabic simple">
 <li><p>点击<strong>🏭Mint</strong>按钮。</p></li>
@@ -805,7 +754,7 @@ document.write(`
 </div></blockquote>
 </section>
 <section id="id17">
-<h3>提交到公共集合<a class="headerlink" href="#id17" title="永久链接至标题">#</a></h3>
+<h4>提交到公共集合<a class="headerlink" href="#id17" title="此标题的永久链接">#</a></h4>
 <p>如果您没有拥有地块，您可以随时提交到公共集合。</p>
 <ol class="arabic simple">
 <li><p>前往https://www.cryptovoxels.com/collections</p></li>
@@ -822,23 +771,23 @@ document.write(`
 </section>
 </section>
 <section id="id18">
-<h2>交易穿戴品<a class="headerlink" href="#id18" title="永久链接至标题">#</a></h2>
+<h3>交易穿戴品<a class="headerlink" href="#id18" title="此标题的永久链接">#</a></h3>
 <p>您可以在Cryptovoxels网站或OpenSea上进行穿戴品的转移。</p>
 <section id="cryptovoxels">
-<h3>在Cryptovoxels上交易<a class="headerlink" href="#cryptovoxels" title="永久链接至标题">#</a></h3>
+<h4>在Cryptovoxels上交易<a class="headerlink" href="#cryptovoxels" title="此标题的永久链接">#</a></h4>
 <p>要使用Cryptovoxels网站进行转移，请前往要发送的穿戴品的页面[例如https://www.cryptovoxels.com/collections/</p>
 <p>1/item/10](https://www.cryptovoxels.com/collections/1/item/10)然后点击<strong>⚙Owner</strong>按钮。从下拉菜单中选择<strong>Transfer…</strong>。输入接收者的地址，然后点击<strong>Submit</strong>按钮。</p>
 <p><img alt="transfer_cryptovoxels.png" src="https://wiki.cryptovoxels.com/createawearable/transfer_cryptovoxels.png" /></p>
 </section>
 <section id="opensea">
-<h3>在OpenSea上交易<a class="headerlink" href="#opensea" title="永久链接至标题">#</a></h3>
+<h4>在OpenSea上交易<a class="headerlink" href="#opensea" title="此标题的永久链接">#</a></h4>
 <p>在OpenSea上交易时，您可以让您的穿戴品显示在您的个人资料页面或隐藏。在个人资料页面上，单击穿戴品，然后选择<strong>Sell</strong>按钮。填写交易信息，并确定您要进行的出售方式（拍卖或固定价格）。然后点击<strong>List Item</strong>按钮。</p>
 <p><img alt="sell_opensea.png" src="https://wiki.cryptovoxels.com/createawearable/sell_opensea.png" /></p>
 </section>
 </section>
 </section>
 <section id="id19">
-<h1>4. 审核<a class="headerlink" href="#id19" title="永久链接至标题">#</a></h1>
+<h2>4. 审核<a class="headerlink" href="#id19" title="此标题的永久链接">#</a></h2>
 <p>目前，Cryptovoxels并没有提供一个简单的审核系统 - 相反，需要在 <a class="reference external" href="https://discord.gg/hJmKqsw">Discord服务器</a>上人工提交审核请求。</p>
 <ol class="arabic simple">
 <li><p>加入Discord服务器</p></li>
@@ -863,9 +812,10 @@ Thank you!
 </div></blockquote>
 </section>
 <section id="id20">
-<h1>5. 重复<a class="headerlink" href="#id20" title="永久链接至标题">#</a></h1>
+<h2>5. 重复<a class="headerlink" href="#id20" title="此标题的永久链接">#</a></h2>
 <p>您可以一次性铸造许多穿戴品，并且一旦您的集合获得审核，您就可以在Cryptovoxels中持续铸造。您还可以创建多个集合，以便针对不同的穿戴品类型或主题组织它们。</p>
 <p>祝您好运，期待看到您在Cryptovoxels中的创作！</p>
+</section>
 </section>
 
 
@@ -916,43 +866,41 @@ Thank you!
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">制作穿戴品</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">1. 要求</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#vox">2. 创建一个vox模型</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#magicavoxel">使用MagicaVoxel</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">保存您的vox文件</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">上传您的穿戴品</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">提示、脚本和教程</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">导入</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">着色器和颜色</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">在铸币之前试穿</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">让其他人试穿</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">故障面部效果</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">扁平穿戴品</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">教程</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">1. 要求</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#vox">2. 创建一个vox模型</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#magicavoxel">使用MagicaVoxel</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">保存您的vox文件</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">上传您的穿戴品</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">提示、脚本和教程</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">导入</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">着色器和颜色</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">在铸币之前试穿</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">让其他人试穿</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">故障面部效果</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">扁平穿戴品</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">教程</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">3. 集合</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id14">创建一个集合</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id15">铸造一件穿戴品</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#polygon-matic-rpc">Polygon/Matic RPC</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id16">上传到您的集合</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id17">提交到公共集合</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">3. 集合</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id14">创建一个集合</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id15">铸造一件穿戴品</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#polygon-matic-rpc">Polygon/Matic RPC</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id16">上传到您的集合</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id17">提交到公共集合</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id18">交易穿戴品</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#cryptovoxels">在Cryptovoxels上交易</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#opensea">在OpenSea上交易</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id18">交易穿戴品</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#cryptovoxels">在Cryptovoxels上交易</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#opensea">在OpenSea上交易</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id19">4. 审核</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id20">5. 重复</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id19">4. 审核</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id20">5. 重复</a></li>
 </ul>
-
   </nav></div>
 
 </div></div>

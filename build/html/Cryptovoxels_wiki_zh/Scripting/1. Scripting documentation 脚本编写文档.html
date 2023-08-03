@@ -3,11 +3,11 @@
 <!DOCTYPE html>
 
 
-<html lang="zh_CN" >
+<html lang="zh-CN" >
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>脚本编写 &#8212; Voxels Wiki</title>
   
@@ -37,9 +37,8 @@
 <link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
 
     <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
-    <script src="../../_static/jquery.js"></script>
-    <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
     <script src="../../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
     <script src="../../_static/translations.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'Cryptovoxels_wiki_zh/Scripting/1. Scripting documentation 脚本编写文档';</script>
@@ -48,7 +47,7 @@
     <link rel="next" title="脚本示例" href="2.%20Scripting%20examples%20%E8%84%9A%E6%9C%AC%E7%BC%96%E5%86%99%E7%A4%BA%E4%BE%8B.html" />
     <link rel="prev" title="YouTube / Twitch 油管&amp;Twitch直播" href="../-Features/YouTube%20%26%20Twitch%20%E6%B2%B9%E7%AE%A1%26Twitch%E7%9B%B4%E6%92%AD.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="docsearch:language" content="zh_CN"/>
+  <meta name="docsearch:language" content="zh-CN"/>
   </head>
   
   
@@ -147,55 +146,28 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Parcels</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../Parcels/1.%20%F0%9F%9B%92%20Buy%20a%20parcel%20%E8%B4%AD%E4%B9%B0%E5%9C%B0%E5%9D%97.html">What is a parcel? 什么是地块</a></li>
-
-
-
-<li class="toctree-l1"><a class="reference internal" href="../Parcels/2.%F0%9F%8F%97%EF%B8%8F%20How%20to%20build%20%E5%A6%82%E4%BD%95%E5%BB%BA%E9%80%A0.html">您可以在哪里建造？</a></li>
-
-
-
-
-
-
+<li class="toctree-l1"><a class="reference internal" href="../Parcels/1.%20%F0%9F%9B%92%20Buy%20a%20parcel%20%E8%B4%AD%E4%B9%B0%E5%9C%B0%E5%9D%97.html">购买地块</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Parcels/2.%F0%9F%8F%97%EF%B8%8F%20How%20to%20build%20%E5%A6%82%E4%BD%95%E5%BB%BA%E9%80%A0.html">如何建造</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Parcels/3.%F0%9F%92%A1%20Light-mapping%20%E5%85%89%E7%85%A7%E6%98%A0%E5%B0%84.html">烘焙光照</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Parcels/4.%E2%9A%A1%20List%20of%20Features%20%E5%8A%9F%E8%83%BD%E5%88%97%E8%A1%A8.html">功能列表</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../Parcels/5.%F0%9F%93%A6%20Make%20a%20vox-model%20%E5%88%B6%E4%BD%9C%20vox%E6%A8%A1%E5%9E%8B.html">1. 获取MagicaVoxel</a></li>
-
-
-
-
-
-<li class="toctree-l1"><a class="reference internal" href="../Parcels/6.%F0%9F%8F%9A%EF%B8%8F%20Spaces%20%E7%A9%BA%E9%97%B4.html">我可以在空间中做什么？</a></li>
-
-
-
-
-
-
-
+<li class="toctree-l1"><a class="reference internal" href="../Parcels/5.%F0%9F%93%A6%20Make%20a%20vox-model%20%E5%88%B6%E4%BD%9C%20vox%E6%A8%A1%E5%9E%8B.html">制作 vox 模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Parcels/6.%F0%9F%8F%9A%EF%B8%8F%20Spaces%20%E7%A9%BA%E9%97%B4.html">空间</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Players</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../Players/1.%20Customization%20%E8%87%AA%E5%AE%9A%E4%B9%89.html">用户名</a></li>
-
-
-<li class="toctree-l1"><a class="reference internal" href="../Players/2.%20Make%20a%20wearable%20%E5%88%B6%E4%BD%9C%E7%A9%BF%E6%88%B4%E5%93%81.html">1. 要求</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Players/1.%20Customization%20%E8%87%AA%E5%AE%9A%E4%B9%89.html">自定义</a></li>
 
 
 
-
-<li class="toctree-l1"><a class="reference internal" href="../Players/3.%20Buy%20a%20wearable%20%E8%B4%AD%E4%B9%B0%E7%A9%BF%E6%88%B4%E5%93%81.html">1. 浏览</a></li>
-
-
-<li class="toctree-l1"><a class="reference internal" href="../Players/4.%20Usernames%20%E7%94%A8%E6%88%B7%E5%90%8D.html">如何创建用户名</a></li>
-
-<li class="toctree-l1"><a class="reference internal" href="../Players/5.%20Key%20bindings%20%E5%85%B3%E9%94%AE%E7%BB%91%E5%AE%9A.html">按键控制</a></li>
-
+<li class="toctree-l1"><a class="reference internal" href="../Players/2.%20Make%20a%20wearable%20%E5%88%B6%E4%BD%9C%E7%A9%BF%E6%88%B4%E5%93%81.html">制作穿戴品</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Players/3.%20Buy%20a%20wearable%20%E8%B4%AD%E4%B9%B0%E7%A9%BF%E6%88%B4%E5%93%81.html">购买穿戴品</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Players/4.%20Usernames%20%E7%94%A8%E6%88%B7%E5%90%8D.html">用户名</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Players/5.%20Key%20bindings%20%E5%85%B3%E9%94%AE%E7%BB%91%E5%AE%9A.html">绑定快捷键</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Features</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../-Features/Audio%20feature%20%E9%9F%B3%E9%A2%91%E5%8A%9F%E8%83%BD.html">音频</a></li>
+
 
 
 
@@ -219,90 +191,6 @@
 <li class="toctree-l1"><a class="reference internal" href="../-Features/Image%20%E5%9B%BE%E5%83%8F.html">Image 图像</a></li>
 
 
-<li class="toctree-l1 has-children"><a class="reference internal" href="../-Features/index.html">功能</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../-Features/Audio%20feature%20%E9%9F%B3%E9%A2%91%E5%8A%9F%E8%83%BD.html">音频</a></li>
-
-
-
-
-<li class="toctree-l2"><a class="reference internal" href="../-Features/Boombox%20%E6%89%AC%E5%A3%B0%E5%99%A8.html">Boombox 扬声器</a></li>
-
-
-
-<li class="toctree-l2"><a class="reference internal" href="../-Features/Button%20%E6%8C%89%E9%92%AE.html">Button 按钮</a></li>
-
-
-
-<li class="toctree-l2"><a class="reference internal" href="../-Features/Call%20Bell%20%E5%91%BC%E5%8F%AB%E9%93%83.html">Call Bell</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../-Features/Collectible%20Model%20%E6%94%B6%E8%97%8F%E6%A8%A1%E5%9E%8B.html">Collectible model 收藏模型</a></li>
-
-
-<li class="toctree-l2"><a class="reference internal" href="../-Features/Cube%20%E7%AB%8B%E6%96%B9%E4%BD%93.html">Cube 立方体</a></li>
-
-
-<li class="toctree-l2"><a class="reference internal" href="../-Features/Group%20%E7%BB%84.html">Group 组</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../-Features/Image%20%E5%9B%BE%E5%83%8F.html">Image 图像</a></li>
-
-
-<li class="toctree-l2"><a class="reference internal" href="../-Features/Lantern%20%E7%81%AF%E7%AC%BC.html">Lantern 灯笼</a></li>
-
-
-<li class="toctree-l2"><a class="reference internal" href="../-Features/Megavox%20%E5%B7%A8%E5%9E%8BVox.html">Megavox 巨型Vox</a></li>
-
-
-<li class="toctree-l2"><a class="reference internal" href="../-Features/NFT%20Image%20%EF%BD%9C%20NFT%20%E5%9B%BE%E5%83%8F.html">NFT Image ｜ NFT 图像</a></li>
-
-
-
-
-<li class="toctree-l2"><a class="reference internal" href="../-Features/NFT-model%20%EF%BD%9C%20NFT-%E6%A8%A1%E5%9E%8B.html">NFT-model ｜ NFT-模型</a></li>
-
-
-<li class="toctree-l2"><a class="reference internal" href="../-Features/Particles%20%E7%B2%92%E5%AD%90.html">Particles 粒子</a></li>
-
-
-
-<li class="toctree-l2"><a class="reference internal" href="../-Features/Platform%20%E5%B9%B3%E5%8F%B0.html">Platform 平台</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../-Features/POAP%20Dispenser%20%EF%BD%9C%20POAP%20%E5%88%86%E9%85%8D%E5%99%A8.html">POAP Dispenser ｜ POAP 分配器</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../-Features/Polytext.html">Polytext</a></li>
-
-
-<li class="toctree-l2"><a class="reference internal" href="../-Features/Portal%20%E4%BC%A0%E9%80%81%E9%97%A8.html">Portal 传送门</a></li>
-
-<li class="toctree-l2"><a class="reference internal" href="../-Features/Richtext%20%E5%AF%8C%E6%96%87%E6%9C%AC.html">Richtext 富文本</a></li>
-
-
-<li class="toctree-l2"><a class="reference internal" href="../-Features/Screen%20%E5%B1%8F%E5%B9%95.html">Screen 屏幕</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../-Features/Sign%20%E6%A0%87%E5%BF%97.html">Sign 标志</a></li>
-
-
-<li class="toctree-l2"><a class="reference internal" href="../-Features/Slider%20input%20%E6%BB%91%E5%8A%A8%E8%BE%93%E5%85%A5.html">Slider Input 滑动输入</a></li>
-
-
-<li class="toctree-l2"><a class="reference internal" href="../-Features/Spawn-point%20%E5%87%BA%E7%94%9F%E7%82%B9.html">Spawn point 出生点</a></li>
-
-
-<li class="toctree-l2"><a class="reference internal" href="../-Features/Submit%20to%20Asset%20library%20%E6%8F%90%E4%BA%A4%E5%88%B0%E8%B5%84%E4%BA%A7%E5%BA%93.html">Submit to the Asset library 提交到资产库</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../-Features/Text%20Input%20%E6%96%87%E6%9C%AC%E8%BE%93%E5%85%A5.html">Text Input 文本输入</a></li>
-
-
-<li class="toctree-l2"><a class="reference internal" href="../-Features/Video%20%E8%A7%86%E9%A2%91.html">Video 视频</a></li>
-
-
-
-
-<li class="toctree-l2"><a class="reference internal" href="../-Features/VidScreen%20%E6%98%BE%E7%A4%BA%E5%B1%8F.html">VidScreen 显示屏</a></li>
-
-<li class="toctree-l2"><a class="reference internal" href="../-Features/Vox%20model%20%EF%BD%9C%20Vox%20%E6%A8%A1%E5%9E%8B.html">Vox</a></li>
-
-
-<li class="toctree-l2"><a class="reference internal" href="../-Features/YouTube%20%26%20Twitch%20%E6%B2%B9%E7%AE%A1%26Twitch%E7%9B%B4%E6%92%AD.html">YouTube / Twitch 油管&amp;Twitch直播</a></li>
-
-
-
-
-</ul>
-</li>
 <li class="toctree-l1"><a class="reference internal" href="../-Features/Lantern%20%E7%81%AF%E7%AC%BC.html">Lantern 灯笼</a></li>
 
 
@@ -364,27 +252,8 @@
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Scripting</span></p>
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">脚本编写</a></li>
-
-
-
-
-
 <li class="toctree-l1"><a class="reference internal" href="2.%20Scripting%20examples%20%E8%84%9A%E6%9C%AC%E7%BC%96%E5%86%99%E7%A4%BA%E4%BE%8B.html">脚本示例</a></li>
-<li class="toctree-l1"><a class="reference internal" href="3.%20Feature%20scripting%20cheatsheet%20%E5%8A%9F%E8%83%BD%E8%84%9A%E6%9C%AC%E9%80%9F%E6%9F%A5%E8%A1%A8.html">目录</a></li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<li class="toctree-l1"><a class="reference internal" href="3.%20Feature%20scripting%20cheatsheet%20%E5%8A%9F%E8%83%BD%E8%84%9A%E6%9C%AC%E9%80%9F%E6%9F%A5%E8%A1%A8.html">脚本速查表</a></li>
 <li class="toctree-l1"><a class="reference internal" href="4.%20The%20grid%20%E7%BD%91%E6%A0%BC.html">网格</a></li>
 <li class="toctree-l1"><a class="reference internal" href="5.%20Animation%20API%20%E5%8A%A8%E7%94%BB%20API.html">动画API</a></li>
 </ul>
@@ -614,64 +483,62 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">脚本编写</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">地块</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">属性</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">函数</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#getfeatures-parcel-getfeatures">getFeatures - <code class="docutils literal notranslate"><span class="pre">parcel.getFeatures()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#getfeaturebyid-parcel-getfeaturebyid-id">getFeatureById - <code class="docutils literal notranslate"><span class="pre">parcel.getFeatureById(id)</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#getfeaturebyuuid-parcel-getfeaturebyuuid-uuid">getFeatureByUuid - <code class="docutils literal notranslate"><span class="pre">parcel.getFeatureByUuid(Uuid)</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#getfeaturesbytype-parcel-getfeaturesbytype-type">getFeaturesByType - <code class="docutils literal notranslate"><span class="pre">parcel.getFeaturesByType(type)</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#createfeature-parcel-createfeature-type">createFeature - <code class="docutils literal notranslate"><span class="pre">parcel.createFeature(type)</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#removefeature-parcel-removefeature-f">removeFeature - <code class="docutils literal notranslate"><span class="pre">parcel.removeFeature(f)</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#getplayers-parcel-getplayers">getPlayers - <code class="docutils literal notranslate"><span class="pre">parcel.getPlayers()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#getplayerswithinparcel-parcel-getplayerswithinparcel">getPlayersWithinParcel - <code class="docutils literal notranslate"><span class="pre">parcel.getPlayersWithinParcel()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#fetchsnapshots-callback-parcel-fetchsnapshots-callback">fetchSnapshots(callback?) - <code class="docutils literal notranslate"><span class="pre">parcel.fetchSnapshots(callback?)</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#setsnapshot-snapshot-id-parcel-setsnapshot-snapshot-id">setSnapshot(snapshot_id) - <code class="docutils literal notranslate"><span class="pre">parcel.setSnapshot(snapshot_id)</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#allow-wallet-parcel-allow-0x">allow(wallet) - <code class="docutils literal notranslate"><span class="pre">parcel.allow("0x..")</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#disallow-wallet-parcel-disallow-0x">disallow(wallet) - <code class="docutils literal notranslate"><span class="pre">parcel.disallow("0x..")</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#iswalletallowedifprivate-wallet-parcel-iswalletallowedifprivate-0x">isWalletAllowedIfPrivate(wallet) - <code class="docutils literal notranslate"><span class="pre">parcel.isWalletAllowedIfPrivate("0x..")</span></code></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">地块</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">属性</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">函数</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#getfeatures-parcel-getfeatures">getFeatures - <code class="docutils literal notranslate"><span class="pre">parcel.getFeatures()</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#getfeaturebyid-parcel-getfeaturebyid-id">getFeatureById - <code class="docutils literal notranslate"><span class="pre">parcel.getFeatureById(id)</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#getfeaturebyuuid-parcel-getfeaturebyuuid-uuid">getFeatureByUuid - <code class="docutils literal notranslate"><span class="pre">parcel.getFeatureByUuid(Uuid)</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#getfeaturesbytype-parcel-getfeaturesbytype-type">getFeaturesByType - <code class="docutils literal notranslate"><span class="pre">parcel.getFeaturesByType(type)</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#createfeature-parcel-createfeature-type">createFeature - <code class="docutils literal notranslate"><span class="pre">parcel.createFeature(type)</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#removefeature-parcel-removefeature-f">removeFeature - <code class="docutils literal notranslate"><span class="pre">parcel.removeFeature(f)</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#getplayers-parcel-getplayers">getPlayers - <code class="docutils literal notranslate"><span class="pre">parcel.getPlayers()</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#getplayerswithinparcel-parcel-getplayerswithinparcel">getPlayersWithinParcel - <code class="docutils literal notranslate"><span class="pre">parcel.getPlayersWithinParcel()</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#fetchsnapshots-callback-parcel-fetchsnapshots-callback">fetchSnapshots(callback?) - <code class="docutils literal notranslate"><span class="pre">parcel.fetchSnapshots(callback?)</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#setsnapshot-snapshot-id-parcel-setsnapshot-snapshot-id">setSnapshot(snapshot_id) - <code class="docutils literal notranslate"><span class="pre">parcel.setSnapshot(snapshot_id)</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#allow-wallet-parcel-allow-0x">allow(wallet) - <code class="docutils literal notranslate"><span class="pre">parcel.allow("0x..")</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#disallow-wallet-parcel-disallow-0x">disallow(wallet) - <code class="docutils literal notranslate"><span class="pre">parcel.disallow("0x..")</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#iswalletallowedifprivate-wallet-parcel-iswalletallowedifprivate-0x">isWalletAllowedIfPrivate(wallet) - <code class="docutils literal notranslate"><span class="pre">parcel.isWalletAllowedIfPrivate("0x..")</span></code></a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">地块事件</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">玩家对象</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">属性：</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">函数：</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#teleportto-coordinates-player-teleportto-coordinates">teleportTo(coordinates) - <code class="docutils literal notranslate"><span class="pre">player.teleportTo(coordinates)</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#haswearable-tokenid-collectionid-player-haswearable-tokenid-collectionid">hasWearable(tokenId,collectionId?) - <code class="docutils literal notranslate"><span class="pre">player.hasWearable(tokenId,collectionId)</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#emote-emoji-player-emote">emote(emoji) - <code class="docutils literal notranslate"><span class="pre">player.emote('😋')</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#animate-animation-player-animate-dance">animate(animation) - <code class="docutils literal notranslate"><span class="pre">player.animate('Dance')</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hasethereumnft-contract-tokenid-successcallback-failcallback-player-hasethereumnft-0x-5-hasnft-reason">hasEthereumNFT(contract,tokenId,successCallback?,failCallback?) - <code class="docutils literal notranslate"><span class="pre">player.hasEthereumNFT('0x...',5,(hasNFT)=&gt;..,</span> <span class="pre">(reason)=&gt;..</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#kick-player-kick">kick() - <code class="docutils literal notranslate"><span class="pre">player.kick()</span></code></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">地块事件</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">玩家对象</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">属性：</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">函数：</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#teleportto-coordinates-player-teleportto-coordinates">teleportTo(coordinates) - <code class="docutils literal notranslate"><span class="pre">player.teleportTo(coordinates)</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#haswearable-tokenid-collectionid-player-haswearable-tokenid-collectionid">hasWearable(tokenId,collectionId?) - <code class="docutils literal notranslate"><span class="pre">player.hasWearable(tokenId,collectionId)</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#emote-emoji-player-emote">emote(emoji) - <code class="docutils literal notranslate"><span class="pre">player.emote('😋')</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#animate-animation-player-animate-dance">animate(animation) - <code class="docutils literal notranslate"><span class="pre">player.animate('Dance')</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#hasethereumnft-contract-tokenid-successcallback-failcallback-player-hasethereumnft-0x-5-hasnft-reason">hasEthereumNFT(contract,tokenId,successCallback?,failCallback?) - <code class="docutils literal notranslate"><span class="pre">player.hasEthereumNFT('0x...',5,(hasNFT)=&gt;..,</span> <span class="pre">(reason)=&gt;..</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#kick-player-kick">kick() - <code class="docutils literal notranslate"><span class="pre">player.kick()</span></code></a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">事件：</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">事件：</a></li>
 </ul>
 </li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">特征对象</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">属性</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id-feature-id">ID - <code class="docutils literal notranslate"><span class="pre">feature.id</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#feature-type">类型 - <code class="docutils literal notranslate"><span class="pre">feature.type</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#feature-position">位置 - <code class="docutils literal notranslate"><span class="pre">feature.position</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#feature-scale">缩放 - <code class="docutils literal notranslate"><span class="pre">feature.scale</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#feature-rotation">旋转 - <code class="docutils literal notranslate"><span class="pre">feature.rotation</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#feature-description">描述 - <code class="docutils literal notranslate"><span class="pre">feature.description</span></code></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">特征对象</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">属性</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id-feature-id">ID - <code class="docutils literal notranslate"><span class="pre">feature.id</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#feature-type">类型 - <code class="docutils literal notranslate"><span class="pre">feature.type</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#feature-position">位置 - <code class="docutils literal notranslate"><span class="pre">feature.position</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#feature-scale">缩放 - <code class="docutils literal notranslate"><span class="pre">feature.scale</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#feature-rotation">旋转 - <code class="docutils literal notranslate"><span class="pre">feature.rotation</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#feature-description">描述 - <code class="docutils literal notranslate"><span class="pre">feature.description</span></code></a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">方法</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#feature-clone">克隆() - <code class="docutils literal notranslate"><span class="pre">feature.clone()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#feature-remove">删除() - <code class="docutils literal notranslate"><span class="pre">feature.remove()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dict-feature-set-url-http">设置(dict) - <code class="docutils literal notranslate"><span class="pre">feature.set({</span> <span class="pre">url:</span> <span class="pre">'http://',</span> <span class="pre">...</span> <span class="pre">})</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#feature-get">获取() - <code class="docutils literal notranslate"><span class="pre">feature.get()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">方法</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#feature-clone">克隆() - <code class="docutils literal notranslate"><span class="pre">feature.clone()</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#feature-remove">删除() - <code class="docutils literal notranslate"><span class="pre">feature.remove()</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#dict-feature-set-url-http">设置(dict) - <code class="docutils literal notranslate"><span class="pre">feature.set({</span> <span class="pre">url:</span> <span class="pre">'http://',</span> <span class="pre">...</span> <span class="pre">})</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#feature-get">获取() - <code class="docutils literal notranslate"><span class="pre">feature.get()</span></code></a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">特征事件</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">特征事件</a></li>
 </ul>
-
             </nav>
         </div>
     </div>
@@ -683,7 +550,7 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <section id="id1">
-<h1>脚本编写<a class="headerlink" href="#id1" title="永久链接至标题">#</a></h1>
+<h1>脚本编写<a class="headerlink" href="#id1" title="此标题的永久链接">#</a></h1>
 <p>脚本接口允许你在自己的服务器上运行 JavaScript 代码并将更新发送到世界中。连接到世界的每个人都会看到你编写的脚本地块的相同视图。你可以在地块上的任何要素中编写脚本，并从该脚本访问其他要素。</p>
 <p>一旦你拥有一个地块，你就可以开始使用脚本引擎。Cryptovoxels 中的脚本编写主要是客户端为主，即大多数脚本将由客户端运行而不是服务器。</p>
 <p>脚本编写的层次结构如下：</p>
@@ -706,12 +573,11 @@ document.write(`
 <div><p>更多最新文档请参阅 <a class="reference external" href="http://blog.cryptovoxels.com/scripting-bundle/">blog.cryptovoxels.com</a>
 {.is-warning}</p>
 </div></blockquote>
-</section>
 <section id="id2">
-<h1>地块<a class="headerlink" href="#id2" title="永久链接至标题">#</a></h1>
+<h2>地块<a class="headerlink" href="#id2" title="此标题的永久链接">#</a></h2>
 <p>本部分包含所有地块共有的属性、函数和事件。</p>
 <section id="id3">
-<h2>属性<a class="headerlink" href="#id3" title="永久链接至标题">#</a></h2>
+<h3>属性<a class="headerlink" href="#id3" title="此标题的永久链接">#</a></h3>
 <p><strong>ID</strong> - <code class="docutils literal notranslate"><span class="pre">parcel.id</span> <span class="pre">=</span> <span class="pre">500</span></code> - 返回一个整数，表示地块的 ID。</p>
 <p><strong>Owner</strong> - <code class="docutils literal notranslate"><span class="pre">parcel.owner</span> <span class="pre">=</span> <span class="pre">&quot;0x...&quot;</span></code> - 返回一个字符串，表示地块的所有者。</p>
 <p><strong>Contributors</strong> - <code class="docutils literal notranslate"><span class="pre">parcel.contributors</span> <span class="pre">=</span> <span class="pre">[]</span></code> - 返回一个数组，表示地块的贡献者列表。</p>
@@ -724,9 +590,9 @@ document.write(`
 </div></blockquote>
 </section>
 <section id="id4">
-<h2>函数<a class="headerlink" href="#id4" title="永久链接至标题">#</a></h2>
+<h3>函数<a class="headerlink" href="#id4" title="此标题的永久链接">#</a></h3>
 <section id="getfeatures-parcel-getfeatures">
-<h3>getFeatures - <code class="docutils literal notranslate"><span class="pre">parcel.getFeatures()</span></code><a class="headerlink" href="#getfeatures-parcel-getfeatures" title="永久链接至标题">#</a></h3>
+<h4>getFeatures - <code class="docutils literal notranslate"><span class="pre">parcel.getFeatures()</span></code><a class="headerlink" href="#getfeatures-parcel-getfeatures" title="此标题的永久链接">#</a></h4>
 <ul class="simple">
 <li><p>返回：一个 Feature 对象列表</p></li>
 </ul>
@@ -735,7 +601,7 @@ document.write(`
 </div>
 </section>
 <section id="getfeaturebyid-parcel-getfeaturebyid-id">
-<h3>getFeatureById - <code class="docutils literal notranslate"><span class="pre">parcel.getFeatureById(id)</span></code><a class="headerlink" href="#getfeaturebyid-parcel-getfeaturebyid-id" title="永久链接至标题">#</a></h3>
+<h4>getFeatureById - <code class="docutils literal notranslate"><span class="pre">parcel.getFeatureById(id)</span></code><a class="headerlink" href="#getfeaturebyid-parcel-getfeaturebyid-id" title="此标题的永久链接">#</a></h4>
 <ul class="simple">
 <li><p>参数：<strong>id</strong> - 所需要素的 ID；一个 <em>字符串</em></p></li>
 <li><p>返回：一个 Feature 对象</p></li>
@@ -746,7 +612,7 @@ document.write(`
 </div>
 </section>
 <section id="getfeaturebyuuid-parcel-getfeaturebyuuid-uuid">
-<h3>getFeatureByUuid - <code class="docutils literal notranslate"><span class="pre">parcel.getFeatureByUuid(Uuid)</span></code><a class="headerlink" href="#getfeaturebyuuid-parcel-getfeaturebyuuid-uuid" title="永久链接至标题">#</a></h3>
+<h4>getFeatureByUuid - <code class="docutils literal notranslate"><span class="pre">parcel.getFeatureByUuid(Uuid)</span></code><a class="headerlink" href="#getfeaturebyuuid-parcel-getfeaturebyuuid-uuid" title="此标题的永久链接">#</a></h4>
 <ul class="simple">
 <li><p>参数：<strong>Uuid</strong> - 所需要素的 UUID；一个 <em>字符串</em></p></li>
 <li><p>返回：一个 Feature 对象</p></li>
@@ -757,7 +623,7 @@ document.write(`
 </div>
 </section>
 <section id="getfeaturesbytype-parcel-getfeaturesbytype-type">
-<h3>getFeaturesByType - <code class="docutils literal notranslate"><span class="pre">parcel.getFeaturesByType(type)</span></code><a class="headerlink" href="#getfeaturesbytype-parcel-getfeaturesbytype-type" title="永久链接至标题">#</a></h3>
+<h4>getFeaturesByType - <code class="docutils literal notranslate"><span class="pre">parcel.getFeaturesByType(type)</span></code><a class="headerlink" href="#getfeaturesbytype-parcel-getfeaturesbytype-type" title="此标题的永久链接">#</a></h4>
 <ul class="simple">
 <li><p>参数：<strong>type</strong> - 所需要素类型；一个 <em>字符串</em></p></li>
 <li><p>返回：一个 Feature 对象列表</p></li>
@@ -781,7 +647,7 @@ document.write(`
 </ul>
 </section>
 <section id="createfeature-parcel-createfeature-type">
-<h3>createFeature - <code class="docutils literal notranslate"><span class="pre">parcel.createFeature(type)</span></code><a class="headerlink" href="#createfeature-parcel-createfeature-type" title="永久链接至标题">#</a></h3>
+<h4>createFeature - <code class="docutils literal notranslate"><span class="pre">parcel.createFeature(type)</span></code><a class="headerlink" href="#createfeature-parcel-createfeature-type" title="此标题的永久链接">#</a></h4>
 <ul class="simple">
 <li><p>参数：<strong>type</strong> - 所需要素类型；一个 <em>字符串</em></p></li>
 <li><p>返回：一个 Feature 对象</p></li>
@@ -795,7 +661,7 @@ document.write(`
 </div></blockquote>
 </section>
 <section id="removefeature-parcel-removefeature-f">
-<h3>removeFeature - <code class="docutils literal notranslate"><span class="pre">parcel.removeFeature(f)</span></code><a class="headerlink" href="#removefeature-parcel-removefeature-f" title="永久链接至标题">#</a></h3>
+<h4>removeFeature - <code class="docutils literal notranslate"><span class="pre">parcel.removeFeature(f)</span></code><a class="headerlink" href="#removefeature-parcel-removefeature-f" title="此标题的永久链接">#</a></h4>
 <ul class="simple">
 <li><p>参数：<strong>f</strong> - 要移除的要素；一个 <em>Feature</em> 对象</p></li>
 <li><p>返回：一个事件</p></li>
@@ -806,21 +672,21 @@ document.write(`
 </div>
 </section>
 <section id="getplayers-parcel-getplayers">
-<h3>getPlayers - <code class="docutils literal notranslate"><span class="pre">parcel.getPlayers()</span></code><a class="headerlink" href="#getplayers-parcel-getplayers" title="永久链接至标题">#</a></h3>
+<h4>getPlayers - <code class="docutils literal notranslate"><span class="pre">parcel.getPlayers()</span></code><a class="headerlink" href="#getplayers-parcel-getplayers" title="此标题的永久链接">#</a></h4>
 <ul class="simple">
 <li><p>参数：无</p></li>
 <li><p>返回：一个玩家对象列表。</p></li>
 </ul>
 </section>
 <section id="getplayerswithinparcel-parcel-getplayerswithinparcel">
-<h3>getPlayersWithinParcel - <code class="docutils literal notranslate"><span class="pre">parcel.getPlayersWithinParcel()</span></code><a class="headerlink" href="#getplayerswithinparcel-parcel-getplayerswithinparcel" title="永久链接至标题">#</a></h3>
+<h4>getPlayersWithinParcel - <code class="docutils literal notranslate"><span class="pre">parcel.getPlayersWithinParcel()</span></code><a class="headerlink" href="#getplayerswithinparcel-parcel-getplayerswithinparcel" title="此标题的永久链接">#</a></h4>
 <ul class="simple">
 <li><p>参数：无</p></li>
 <li><p>返回：一个玩家对象列表。仅包含在地块内的玩家</p></li>
 </ul>
 </section>
 <section id="fetchsnapshots-callback-parcel-fetchsnapshots-callback">
-<h3>fetchSnapshots(callback?) - <code class="docutils literal notranslate"><span class="pre">parcel.fetchSnapshots(callback?)</span></code><a class="headerlink" href="#fetchsnapshots-callback-parcel-fetchsnapshots-callback" title="永久链接至标题">#</a></h3>
+<h4>fetchSnapshots(callback?) - <code class="docutils literal notranslate"><span class="pre">parcel.fetchSnapshots(callback?)</span></code><a class="headerlink" href="#fetchsnapshots-callback-parcel-fetchsnapshots-callback" title="此标题的永久链接">#</a></h4>
 <ul class="simple">
 <li><p>参数：（可选）一个回调函数，在获取快照后调用。回调函数必须有一个参数，这将是一个快照数组。</p></li>
 <li><p>返回：无</p></li>
@@ -828,7 +694,7 @@ document.write(`
 </ul>
 </section>
 <section id="setsnapshot-snapshot-id-parcel-setsnapshot-snapshot-id">
-<h3>setSnapshot(snapshot_id) - <code class="docutils literal notranslate"><span class="pre">parcel.setSnapshot(snapshot_id)</span></code><a class="headerlink" href="#setsnapshot-snapshot-id-parcel-setsnapshot-snapshot-id" title="永久链接至标题">#</a></h3>
+<h4>setSnapshot(snapshot_id) - <code class="docutils literal notranslate"><span class="pre">parcel.setSnapshot(snapshot_id)</span></code><a class="headerlink" href="#setsnapshot-snapshot-id-parcel-setsnapshot-snapshot-id" title="此标题的永久链接">#</a></h4>
 <ul class="simple">
 <li><p>参数：一个表示所选快照的整数 ID。</p></li>
 <li><p>返回：无</p></li>
@@ -854,7 +720,7 @@ document.write(`
 </div></blockquote>
 </section>
 <section id="allow-wallet-parcel-allow-0x">
-<h3>allow(wallet) - <code class="docutils literal notranslate"><span class="pre">parcel.allow(&quot;0x..&quot;)</span></code><a class="headerlink" href="#allow-wallet-parcel-allow-0x" title="永久链接至标题">#</a></h3>
+<h4>allow(wallet) - <code class="docutils literal notranslate"><span class="pre">parcel.allow(&quot;0x..&quot;)</span></code><a class="headerlink" href="#allow-wallet-parcel-allow-0x" title="此标题的永久链接">#</a></h4>
 <p>将 <code class="docutils literal notranslate"><span class="pre">wallet</span></code> 添加到地块为私有时允许的钱包列表。</p>
 <ul class="simple">
 <li><p>参数：钱包地址；</p></li>
@@ -862,7 +728,7 @@ document.write(`
 </ul>
 </section>
 <section id="disallow-wallet-parcel-disallow-0x">
-<h3>disallow(wallet) - <code class="docutils literal notranslate"><span class="pre">parcel.disallow(&quot;0x..&quot;)</span></code><a class="headerlink" href="#disallow-wallet-parcel-disallow-0x" title="永久链接至标题">#</a></h3>
+<h4>disallow(wallet) - <code class="docutils literal notranslate"><span class="pre">parcel.disallow(&quot;0x..&quot;)</span></code><a class="headerlink" href="#disallow-wallet-parcel-disallow-0x" title="此标题的永久链接">#</a></h4>
 <p>将 <code class="docutils literal notranslate"><span class="pre">wallet</span></code> 从地块为私有时允许的钱包列表中删除。</p>
 <ul class="simple">
 <li><p>参数：钱包地址；</p></li>
@@ -870,7 +736,7 @@ document.write(`
 </ul>
 </section>
 <section id="iswalletallowedifprivate-wallet-parcel-iswalletallowedifprivate-0x">
-<h3>isWalletAllowedIfPrivate(wallet) - <code class="docutils literal notranslate"><span class="pre">parcel.isWalletAllowedIfPrivate(&quot;0x..&quot;)</span></code><a class="headerlink" href="#iswalletallowedifprivate-wallet-parcel-iswalletallowedifprivate-0x" title="永久链接至标题">#</a></h3>
+<h4>isWalletAllowedIfPrivate(wallet) - <code class="docutils literal notranslate"><span class="pre">parcel.isWalletAllowedIfPrivate(&quot;0x..&quot;)</span></code><a class="headerlink" href="#iswalletallowedifprivate-wallet-parcel-iswalletallowedifprivate-0x" title="此标题的永久链接">#</a></h4>
 <p>检查在地块为私有时是否允许 <code class="docutils literal notranslate"><span class="pre">wallet</span></code> 进入地块。</p>
 <ul class="simple">
 <li><p>参数：钱包地址；</p></li>
@@ -880,7 +746,7 @@ document.write(`
 </section>
 </section>
 <section id="id5">
-<h1>地块事件<a class="headerlink" href="#id5" title="永久链接至标题">#</a></h1>
+<h2>地块事件<a class="headerlink" href="#id5" title="此标题的永久链接">#</a></h2>
 <p><strong>玩家进入</strong> - <code class="docutils literal notranslate"><span class="pre">parcel.on('playerenter',</span> <span class="pre">(e)=&gt;</span> <span class="pre">{})</span></code></p>
 <ul class="simple">
 <li><p>返回：一个包含玩家信息的事件 <code class="docutils literal notranslate"><span class="pre">e</span></code>。</p></li>
@@ -907,10 +773,10 @@ document.write(`
 </ul>
 </section>
 <section id="id6">
-<h1>玩家对象<a class="headerlink" href="#id6" title="永久链接至标题">#</a></h1>
+<h2>玩家对象<a class="headerlink" href="#id6" title="此标题的永久链接">#</a></h2>
 <p>通过 <code class="docutils literal notranslate"><span class="pre">parcel.getPlayers()</span></code> 或 <code class="docutils literal notranslate"><span class="pre">feature.on('click',</span> <span class="pre">e</span> <span class="pre">=&gt;</span> <span class="pre">console.log(e.player))</span></code> 可以获得。目前只是一个对象，但将来会成为一个类。</p>
 <section id="id7">
-<h2>属性：<a class="headerlink" href="#id7" title="永久链接至标题">#</a></h2>
+<h3>属性：<a class="headerlink" href="#id7" title="此标题的永久链接">#</a></h3>
 <ul class="simple">
 <li><p><code class="docutils literal notranslate"><span class="pre">player.name</span></code> =&gt; ‘captainbenis.eth’</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">player.wallet</span></code> =&gt; ‘0x2D891ED45C4C3EAB978513DF4B92a35Cf131d2e2’</p></li>
@@ -921,9 +787,9 @@ document.write(`
 </div></blockquote>
 </section>
 <section id="id8">
-<h2>函数：<a class="headerlink" href="#id8" title="永久链接至标题">#</a></h2>
+<h3>函数：<a class="headerlink" href="#id8" title="此标题的永久链接">#</a></h3>
 <section id="teleportto-coordinates-player-teleportto-coordinates">
-<h3>teleportTo(coordinates) - <code class="docutils literal notranslate"><span class="pre">player.teleportTo(coordinates)</span></code><a class="headerlink" href="#teleportto-coordinates-player-teleportto-coordinates" title="永久链接至标题">#</a></h3>
+<h4>teleportTo(coordinates) - <code class="docutils literal notranslate"><span class="pre">player.teleportTo(coordinates)</span></code><a class="headerlink" href="#teleportto-coordinates-player-teleportto-coordinates" title="此标题的永久链接">#</a></h4>
 <ul class="simple">
 <li><p>参数：字符串，例如 <code class="docutils literal notranslate"><span class="pre">'N&#64;43W,250N,1U'</span></code></p></li>
 <li><p>返回：无</p></li>
@@ -932,14 +798,14 @@ document.write(`
 </ul>
 </section>
 <section id="haswearable-tokenid-collectionid-player-haswearable-tokenid-collectionid">
-<h3>hasWearable(tokenId,collectionId?) - <code class="docutils literal notranslate"><span class="pre">player.hasWearable(tokenId,collectionId)</span></code><a class="headerlink" href="#haswearable-tokenid-collectionid-player-haswearable-tokenid-collectionid" title="永久链接至标题">#</a></h3>
+<h4>hasWearable(tokenId,collectionId?) - <code class="docutils literal notranslate"><span class="pre">player.hasWearable(tokenId,collectionId)</span></code><a class="headerlink" href="#haswearable-tokenid-collectionid-player-haswearable-tokenid-collectionid" title="此标题的永久链接">#</a></h4>
 <ul class="simple">
 <li><p>参数：一个整数 <code class="docutils literal notranslate"><span class="pre">tokenId</span></code>，代表可穿戴物品的标记 ID，以及 <code class="docutils literal notranslate"><span class="pre">collectionId</span></code>，代表该可穿戴物品所属的集合的 ID。</p></li>
 <li><p>返回：true 或 false。</p></li>
 </ul>
 </section>
 <section id="emote-emoji-player-emote">
-<h3>emote(emoji) - <code class="docutils literal notranslate"><span class="pre">player.emote('😋')</span></code><a class="headerlink" href="#emote-emoji-player-emote" title="永久链接至标题">#</a></h3>
+<h4>emote(emoji) - <code class="docutils literal notranslate"><span class="pre">player.emote('😋')</span></code><a class="headerlink" href="#emote-emoji-player-emote" title="此标题的永久链接">#</a></h4>
 <ul class="simple">
 <li><p>参数：字符串；一个由 Cryptovoxels 支持的表情符号。
 有关支持的表情符号列表，请参阅 <a class="reference external" href="https://wiki.cryptovoxels.com/en/Social#emojis">Emojis</a>。
@@ -950,7 +816,7 @@ document.write(`
 </ul>
 </section>
 <section id="animate-animation-player-animate-dance">
-<h3>animate(animation) - <code class="docutils literal notranslate"><span class="pre">player.animate('Dance')</span></code><a class="headerlink" href="#animate-animation-player-animate-dance" title="永久链接至标题">#</a></h3>
+<h4>animate(animation) - <code class="docutils literal notranslate"><span class="pre">player.animate('Dance')</span></code><a class="headerlink" href="#animate-animation-player-animate-dance" title="此标题的永久链接">#</a></h4>
 <p>**此函数已</p>
 <p>被弃用，因为它过于具有侵入性。它将不再起作用（2022 年 3 月）**</p>
 <ul class="simple">
@@ -968,7 +834,7 @@ document.write(`
 </ul>
 </section>
 <section id="hasethereumnft-contract-tokenid-successcallback-failcallback-player-hasethereumnft-0x-5-hasnft-reason">
-<h3>hasEthereumNFT(contract,tokenId,successCallback?,failCallback?) - <code class="docutils literal notranslate"><span class="pre">player.hasEthereumNFT('0x...',5,(hasNFT)=&gt;..,</span> <span class="pre">(reason)=&gt;..</span></code><a class="headerlink" href="#hasethereumnft-contract-tokenid-successcallback-failcallback-player-hasethereumnft-0x-5-hasnft-reason" title="永久链接至标题">#</a></h3>
+<h4>hasEthereumNFT(contract,tokenId,successCallback?,failCallback?) - <code class="docutils literal notranslate"><span class="pre">player.hasEthereumNFT('0x...',5,(hasNFT)=&gt;..,</span> <span class="pre">(reason)=&gt;..</span></code><a class="headerlink" href="#hasethereumnft-contract-tokenid-successcallback-failcallback-player-hasethereumnft-0x-5-hasnft-reason" title="此标题的永久链接">#</a></h4>
 <ul class="simple">
 <li><p>参数：
 <strong>Contract：</strong> 字符串；交易的合约。
@@ -979,7 +845,7 @@ document.write(`
 </ul>
 </section>
 <section id="kick-player-kick">
-<h3>kick() - <code class="docutils literal notranslate"><span class="pre">player.kick()</span></code><a class="headerlink" href="#kick-player-kick" title="永久链接至标题">#</a></h3>
+<h4>kick() - <code class="docutils literal notranslate"><span class="pre">player.kick()</span></code><a class="headerlink" href="#kick-player-kick" title="此标题的永久链接">#</a></h4>
 <ul class="simple">
 <li><p>参数：无</p></li>
 <li><p>返回：无</p></li>
@@ -988,7 +854,7 @@ document.write(`
 </section>
 </section>
 <section id="id9">
-<h2>事件：<a class="headerlink" href="#id9" title="永久链接至标题">#</a></h2>
+<h3>事件：<a class="headerlink" href="#id9" title="此标题的永久链接">#</a></h3>
 <p><strong>move</strong> - <code class="docutils literal notranslate"><span class="pre">player.on('move',</span> <span class="pre">(e)=&gt;</span> <span class="pre">{...})</span></code></p>
 <ul class="simple">
 <li><p>返回：一个事件 <code class="docutils literal notranslate"><span class="pre">e</span></code>。</p></li>
@@ -1004,22 +870,22 @@ document.write(`
 </section>
 </section>
 <section id="id10">
-<h1>特征对象<a class="headerlink" href="#id10" title="永久链接至标题">#</a></h1>
+<h2>特征对象<a class="headerlink" href="#id10" title="此标题的永久链接">#</a></h2>
 <p>此部分包括所有特征共有的属性、函数和事件。</p>
 <blockquote>
 <div><p>对于特定特征的属性和方法，请转到 <a class="reference external" href="https://wiki.cryptovoxels.com/features">features</a> 中所需的特征，并向下滚动到脚本属性。{.is-info}</p>
 </div></blockquote>
 <section id="id11">
-<h2>属性<a class="headerlink" href="#id11" title="永久链接至标题">#</a></h2>
+<h3>属性<a class="headerlink" href="#id11" title="此标题的永久链接">#</a></h3>
 <section id="id-feature-id">
-<h3>ID - <code class="docutils literal notranslate"><span class="pre">feature.id</span></code><a class="headerlink" href="#id-feature-id" title="永久链接至标题">#</a></h3>
+<h4>ID - <code class="docutils literal notranslate"><span class="pre">feature.id</span></code><a class="headerlink" href="#id-feature-id" title="此标题的永久链接">#</a></h4>
 <ul class="simple">
 <li><p>返回：整数；特征的 ID。</p></li>
 <li><p>可以设置。例如：<code class="docutils literal notranslate"><span class="pre">feature.id</span> <span class="pre">=</span> <span class="pre">'myvoxId'</span> </code></p></li>
 </ul>
 </section>
 <section id="feature-type">
-<h3>类型 - <code class="docutils literal notranslate"><span class="pre">feature.type</span></code><a class="headerlink" href="#feature-type" title="永久链接至标题">#</a></h3>
+<h4>类型 - <code class="docutils literal notranslate"><span class="pre">feature.type</span></code><a class="headerlink" href="#feature-type" title="此标题的永久链接">#</a></h4>
 <ul class="simple">
 <li><p>返回：字符串；特征的类型。</p></li>
 </ul>
@@ -1041,7 +907,7 @@ document.write(`
 </ul>
 </section>
 <section id="feature-position">
-<h3>位置 - <code class="docutils literal notranslate"><span class="pre">feature.position</span></code><a class="headerlink" href="#feature-position" title="永久链接至标题">#</a></h3>
+<h4>位置 - <code class="docutils literal notranslate"><span class="pre">feature.position</span></code><a class="headerlink" href="#feature-position" title="此标题的永久链接">#</a></h4>
 <ul class="simple">
 <li><p>返回：矢量，格式为 [x（<em>double</em>），y（<em>double</em>），z（<em>double</em>）]。</p></li>
 <li><p>可以设置。例如：<code class="docutils literal notranslate"><span class="pre">feature.position.set(1,</span> <span class="pre">0.72,</span> <span class="pre">2)</span></code>
@@ -1055,7 +921,7 @@ document.write(`
 </div></blockquote>
 </section>
 <section id="feature-scale">
-<h3>缩放 - <code class="docutils literal notranslate"><span class="pre">feature.scale</span></code><a class="headerlink" href="#feature-scale" title="永久链接至标题">#</a></h3>
+<h4>缩放 - <code class="docutils literal notranslate"><span class="pre">feature.scale</span></code><a class="headerlink" href="#feature-scale" title="此标题的永久链接">#</a></h4>
 <ul class="simple">
 <li><p>返回：矢量，格式为 [x（<em>double</em>），y（<em>double</em>），z（<em>double</em>）]。</p></li>
 <li><p>可以设置。例如：<code class="docutils literal notranslate"><span class="pre">feature.scale.set(0.75,</span> <span class="pre">0.75,</span> <span class="pre">0.75)</span></code>
@@ -1067,7 +933,7 @@ document.write(`
 </div></blockquote>
 </section>
 <section id="feature-rotation">
-<h3>旋转 - <code class="docutils literal notranslate"><span class="pre">feature.rotation</span></code><a class="headerlink" href="#feature-rotation" title="永久链接至标题">#</a></h3>
+<h4>旋转 - <code class="docutils literal notranslate"><span class="pre">feature.rotation</span></code><a class="headerlink" href="#feature-rotation" title="此标题的永久链接">#</a></h4>
 <ul class="simple">
 <li><p>返回：矢量，格式为 [x（<em>double</em>），y（<em>double</em>），z（<em>double</em>）]。</p></li>
 <li><p>这是一个代理矢量对象。在其上调用 <code class="docutils literal notranslate"><span class="pre">set</span></code>，例如 <code class="docutils literal notranslate"><span class="pre">feature.rotation.set(0,</span> <span class="pre">0,</span> <span class="pre">0)</span></code>
@@ -1093,7 +959,7 @@ document.write(`
 </ul>
 </section>
 <section id="feature-description">
-<h3>描述 - <code class="docutils literal notranslate"><span class="pre">feature.description</span></code><a class="headerlink" href="#feature-description" title="永久链接至标题">#</a></h3>
+<h4>描述 - <code class="docutils literal notranslate"><span class="pre">feature.description</span></code><a class="headerlink" href="#feature-description" title="此标题的永久链接">#</a></h4>
 <ul class="simple">
 <li><p>返回：一个字典，包含可以在对象上 <code class="docutils literal notranslate"><span class="pre">set</span></code> 的所有属性。</p></li>
 <li><p>注意：不要更改返回的对象，假定其为只读。调用 <code class="docutils literal notranslate"><span class="pre">set</span></code> 来更新描述中的属性。</p></li>
@@ -1101,22 +967,22 @@ document.write(`
 </section>
 </section>
 <section id="id12">
-<h2>方法<a class="headerlink" href="#id12" title="永久链接至标题">#</a></h2>
+<h3>方法<a class="headerlink" href="#id12" title="此标题的永久链接">#</a></h3>
 <section id="feature-clone">
-<h3>克隆() - <code class="docutils literal notranslate"><span class="pre">feature.clone()</span></code><a class="headerlink" href="#feature-clone" title="永久链接至标题">#</a></h3>
+<h4>克隆() - <code class="docutils literal notranslate"><span class="pre">feature.clone()</span></code><a class="headerlink" href="#feature-clone" title="此标题的永久链接">#</a></h4>
 <ul class="simple">
 <li><p>返回：克隆的特征</p></li>
 </ul>
 </section>
 <section id="feature-remove">
-<h3>删除() - <code class="docutils literal notranslate"><span class="pre">feature.remove()</span></code><a class="headerlink" href="#feature-remove" title="永久链接至标题">#</a></h3>
+<h4>删除() - <code class="docutils literal notranslate"><span class="pre">feature.remove()</span></code><a class="headerlink" href="#feature-remove" title="此标题的永久链接">#</a></h4>
 <p>从地块中删除特征</p>
 <ul class="simple">
 <li><p>返回：无</p></li>
 </ul>
 </section>
 <section id="dict-feature-set-url-http">
-<h3>设置(dict) - <code class="docutils literal notranslate"><span class="pre">feature.set({</span> <span class="pre">url:</span> <span class="pre">'http://',</span> <span class="pre">...</span> <span class="pre">})</span></code><a class="headerlink" href="#dict-feature-set-url-http" title="永久链接至标题">#</a></h3>
+<h4>设置(dict) - <code class="docutils literal notranslate"><span class="pre">feature.set({</span> <span class="pre">url:</span> <span class="pre">'http://',</span> <span class="pre">...</span> <span class="pre">})</span></code><a class="headerlink" href="#dict-feature-set-url-http" title="此标题的永久链接">#</a></h4>
 <p>设置特征的属性</p>
 <ul class="simple">
 <li><p>参数：一个对象，包含一个键和一个值，例如 {url:’</p></li>
@@ -1127,19 +993,20 @@ document.write(`
 </ul>
 </section>
 <section id="feature-get">
-<h3>获取() - <code class="docutils literal notranslate"><span class="pre">feature.get()</span></code><a class="headerlink" href="#feature-get" title="永久链接至标题">#</a></h3>
+<h4>获取() - <code class="docutils literal notranslate"><span class="pre">feature.get()</span></code><a class="headerlink" href="#feature-get" title="此标题的永久链接">#</a></h4>
 <p>返回特征的属性的副本，这些属性可以在其中设置新值。</p>
 </section>
 </section>
 </section>
 <section id="id13">
-<h1>特征事件<a class="headerlink" href="#id13" title="永久链接至标题">#</a></h1>
+<h2>特征事件<a class="headerlink" href="#id13" title="此标题的永久链接">#</a></h2>
 <p>特征支持的事件在特征部分中有具体介绍。</p>
 <blockquote>
 <div><p>更多最新文档请参阅 <a class="reference external" href="https://wiki.cryptovoxels.com/Scripting/Examples">https://wiki.cryptovoxels.com/Scripting/Examples</a>
 {.is-warning}</p>
 </div></blockquote>
 <p>我希望这些信息能帮助到你开始使用 Cryptovoxels 的脚本编写。有关脚本编写的更多信息和示例，请访问官方文档链接和示例链接。如果你有其他问题，随时问我！祝你在 Cryptovoxels 中编写有趣的脚本！</p>
+</section>
 </section>
 
 
@@ -1190,64 +1057,62 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">脚本编写</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">地块</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">属性</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">函数</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#getfeatures-parcel-getfeatures">getFeatures - <code class="docutils literal notranslate"><span class="pre">parcel.getFeatures()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#getfeaturebyid-parcel-getfeaturebyid-id">getFeatureById - <code class="docutils literal notranslate"><span class="pre">parcel.getFeatureById(id)</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#getfeaturebyuuid-parcel-getfeaturebyuuid-uuid">getFeatureByUuid - <code class="docutils literal notranslate"><span class="pre">parcel.getFeatureByUuid(Uuid)</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#getfeaturesbytype-parcel-getfeaturesbytype-type">getFeaturesByType - <code class="docutils literal notranslate"><span class="pre">parcel.getFeaturesByType(type)</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#createfeature-parcel-createfeature-type">createFeature - <code class="docutils literal notranslate"><span class="pre">parcel.createFeature(type)</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#removefeature-parcel-removefeature-f">removeFeature - <code class="docutils literal notranslate"><span class="pre">parcel.removeFeature(f)</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#getplayers-parcel-getplayers">getPlayers - <code class="docutils literal notranslate"><span class="pre">parcel.getPlayers()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#getplayerswithinparcel-parcel-getplayerswithinparcel">getPlayersWithinParcel - <code class="docutils literal notranslate"><span class="pre">parcel.getPlayersWithinParcel()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#fetchsnapshots-callback-parcel-fetchsnapshots-callback">fetchSnapshots(callback?) - <code class="docutils literal notranslate"><span class="pre">parcel.fetchSnapshots(callback?)</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#setsnapshot-snapshot-id-parcel-setsnapshot-snapshot-id">setSnapshot(snapshot_id) - <code class="docutils literal notranslate"><span class="pre">parcel.setSnapshot(snapshot_id)</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#allow-wallet-parcel-allow-0x">allow(wallet) - <code class="docutils literal notranslate"><span class="pre">parcel.allow("0x..")</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#disallow-wallet-parcel-disallow-0x">disallow(wallet) - <code class="docutils literal notranslate"><span class="pre">parcel.disallow("0x..")</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#iswalletallowedifprivate-wallet-parcel-iswalletallowedifprivate-0x">isWalletAllowedIfPrivate(wallet) - <code class="docutils literal notranslate"><span class="pre">parcel.isWalletAllowedIfPrivate("0x..")</span></code></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">地块</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">属性</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">函数</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#getfeatures-parcel-getfeatures">getFeatures - <code class="docutils literal notranslate"><span class="pre">parcel.getFeatures()</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#getfeaturebyid-parcel-getfeaturebyid-id">getFeatureById - <code class="docutils literal notranslate"><span class="pre">parcel.getFeatureById(id)</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#getfeaturebyuuid-parcel-getfeaturebyuuid-uuid">getFeatureByUuid - <code class="docutils literal notranslate"><span class="pre">parcel.getFeatureByUuid(Uuid)</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#getfeaturesbytype-parcel-getfeaturesbytype-type">getFeaturesByType - <code class="docutils literal notranslate"><span class="pre">parcel.getFeaturesByType(type)</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#createfeature-parcel-createfeature-type">createFeature - <code class="docutils literal notranslate"><span class="pre">parcel.createFeature(type)</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#removefeature-parcel-removefeature-f">removeFeature - <code class="docutils literal notranslate"><span class="pre">parcel.removeFeature(f)</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#getplayers-parcel-getplayers">getPlayers - <code class="docutils literal notranslate"><span class="pre">parcel.getPlayers()</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#getplayerswithinparcel-parcel-getplayerswithinparcel">getPlayersWithinParcel - <code class="docutils literal notranslate"><span class="pre">parcel.getPlayersWithinParcel()</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#fetchsnapshots-callback-parcel-fetchsnapshots-callback">fetchSnapshots(callback?) - <code class="docutils literal notranslate"><span class="pre">parcel.fetchSnapshots(callback?)</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#setsnapshot-snapshot-id-parcel-setsnapshot-snapshot-id">setSnapshot(snapshot_id) - <code class="docutils literal notranslate"><span class="pre">parcel.setSnapshot(snapshot_id)</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#allow-wallet-parcel-allow-0x">allow(wallet) - <code class="docutils literal notranslate"><span class="pre">parcel.allow("0x..")</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#disallow-wallet-parcel-disallow-0x">disallow(wallet) - <code class="docutils literal notranslate"><span class="pre">parcel.disallow("0x..")</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#iswalletallowedifprivate-wallet-parcel-iswalletallowedifprivate-0x">isWalletAllowedIfPrivate(wallet) - <code class="docutils literal notranslate"><span class="pre">parcel.isWalletAllowedIfPrivate("0x..")</span></code></a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">地块事件</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">玩家对象</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">属性：</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">函数：</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#teleportto-coordinates-player-teleportto-coordinates">teleportTo(coordinates) - <code class="docutils literal notranslate"><span class="pre">player.teleportTo(coordinates)</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#haswearable-tokenid-collectionid-player-haswearable-tokenid-collectionid">hasWearable(tokenId,collectionId?) - <code class="docutils literal notranslate"><span class="pre">player.hasWearable(tokenId,collectionId)</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#emote-emoji-player-emote">emote(emoji) - <code class="docutils literal notranslate"><span class="pre">player.emote('😋')</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#animate-animation-player-animate-dance">animate(animation) - <code class="docutils literal notranslate"><span class="pre">player.animate('Dance')</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hasethereumnft-contract-tokenid-successcallback-failcallback-player-hasethereumnft-0x-5-hasnft-reason">hasEthereumNFT(contract,tokenId,successCallback?,failCallback?) - <code class="docutils literal notranslate"><span class="pre">player.hasEthereumNFT('0x...',5,(hasNFT)=&gt;..,</span> <span class="pre">(reason)=&gt;..</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#kick-player-kick">kick() - <code class="docutils literal notranslate"><span class="pre">player.kick()</span></code></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">地块事件</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">玩家对象</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">属性：</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">函数：</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#teleportto-coordinates-player-teleportto-coordinates">teleportTo(coordinates) - <code class="docutils literal notranslate"><span class="pre">player.teleportTo(coordinates)</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#haswearable-tokenid-collectionid-player-haswearable-tokenid-collectionid">hasWearable(tokenId,collectionId?) - <code class="docutils literal notranslate"><span class="pre">player.hasWearable(tokenId,collectionId)</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#emote-emoji-player-emote">emote(emoji) - <code class="docutils literal notranslate"><span class="pre">player.emote('😋')</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#animate-animation-player-animate-dance">animate(animation) - <code class="docutils literal notranslate"><span class="pre">player.animate('Dance')</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#hasethereumnft-contract-tokenid-successcallback-failcallback-player-hasethereumnft-0x-5-hasnft-reason">hasEthereumNFT(contract,tokenId,successCallback?,failCallback?) - <code class="docutils literal notranslate"><span class="pre">player.hasEthereumNFT('0x...',5,(hasNFT)=&gt;..,</span> <span class="pre">(reason)=&gt;..</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#kick-player-kick">kick() - <code class="docutils literal notranslate"><span class="pre">player.kick()</span></code></a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">事件：</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">事件：</a></li>
 </ul>
 </li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">特征对象</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">属性</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id-feature-id">ID - <code class="docutils literal notranslate"><span class="pre">feature.id</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#feature-type">类型 - <code class="docutils literal notranslate"><span class="pre">feature.type</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#feature-position">位置 - <code class="docutils literal notranslate"><span class="pre">feature.position</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#feature-scale">缩放 - <code class="docutils literal notranslate"><span class="pre">feature.scale</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#feature-rotation">旋转 - <code class="docutils literal notranslate"><span class="pre">feature.rotation</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#feature-description">描述 - <code class="docutils literal notranslate"><span class="pre">feature.description</span></code></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">特征对象</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">属性</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id-feature-id">ID - <code class="docutils literal notranslate"><span class="pre">feature.id</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#feature-type">类型 - <code class="docutils literal notranslate"><span class="pre">feature.type</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#feature-position">位置 - <code class="docutils literal notranslate"><span class="pre">feature.position</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#feature-scale">缩放 - <code class="docutils literal notranslate"><span class="pre">feature.scale</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#feature-rotation">旋转 - <code class="docutils literal notranslate"><span class="pre">feature.rotation</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#feature-description">描述 - <code class="docutils literal notranslate"><span class="pre">feature.description</span></code></a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">方法</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#feature-clone">克隆() - <code class="docutils literal notranslate"><span class="pre">feature.clone()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#feature-remove">删除() - <code class="docutils literal notranslate"><span class="pre">feature.remove()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dict-feature-set-url-http">设置(dict) - <code class="docutils literal notranslate"><span class="pre">feature.set({</span> <span class="pre">url:</span> <span class="pre">'http://',</span> <span class="pre">...</span> <span class="pre">})</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#feature-get">获取() - <code class="docutils literal notranslate"><span class="pre">feature.get()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">方法</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#feature-clone">克隆() - <code class="docutils literal notranslate"><span class="pre">feature.clone()</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#feature-remove">删除() - <code class="docutils literal notranslate"><span class="pre">feature.remove()</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#dict-feature-set-url-http">设置(dict) - <code class="docutils literal notranslate"><span class="pre">feature.set({</span> <span class="pre">url:</span> <span class="pre">'http://',</span> <span class="pre">...</span> <span class="pre">})</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#feature-get">获取() - <code class="docutils literal notranslate"><span class="pre">feature.get()</span></code></a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">特征事件</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">特征事件</a></li>
 </ul>
-
   </nav></div>
 
 </div></div>

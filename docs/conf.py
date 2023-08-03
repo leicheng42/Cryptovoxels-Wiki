@@ -22,10 +22,12 @@ master_doc = "index"
 
 extensions = [
     'myst_parser',
-    'sphinx.ext.duration',
-    'sphinx.ext.autosectionlabel',
+    # 'sphinx.ext.duration',
+    # 'sphinx.ext.autosectionlabel',
     ]
-source_suffix = {'.rst': 'restructuredtext', '.txt': 'markdown', '.md': 'markdown',}
+# source_suffix = {'.rst': 'restructuredtext', '.txt': 'markdown', '.md': 'markdown',}
+
+myst_enable_extensions = ["colon_fence"]
 
 templates_path = ['_templates']
 exclude_patterns = []
